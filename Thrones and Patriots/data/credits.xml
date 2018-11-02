@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- Edited by KK Games) -->
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Scott Lewis (Big Huge Games) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<!--LOCALIZATION -->
+<!--LOCALIZATION -->
+<!--LOCALIZATION-->
+<!--LOCALIZATION -->
+<!--LOCALIZATION -->
+<ROOT>
+  <CREDITSWIN name="CreditsWin" left="0" top="0" percent_width="1000" percent_height="1000">
+    <!-- width="1024" height="768">-->
+    <STYLE TOP="1"/>
+    <MUSIC filename=".\sounds\Thrones_and_Patriots.wav"/>
+    <POSITION index="0" pic_left="500" pic_top="500" text_left="100" text_top="100"/>
+    <POSITION index="1" pic_left="250" pic_top="500" text_left="900" text_top="100"/>
+    <POSITION index="2" pic_left="250" pic_top="250" text_left="900" text_top="500"/>
+    <POSITION index="3" pic_left="500" pic_top="250" text_left="100" text_top="500"/>
+    <POSITION index="4" pic_left="0" pic_top="0" text_left="512" text_top="20"/>
+    <POSITION index="5" pic_left="140" pic_top="110" text_left="512" text_top="100"/>
+    <POSITION index="6" pic_left="750" pic_top="350" text_left="200" text_top="100"/>
+    <POSITION index="7" pic_left="140" pic_top="660" text_left="512" text_top="100"/>
+    <POSITION index="8" pic_left="880" pic_top="660" text_left="512" text_top="100"/>
+    <POSITION index="9" pic_left="140" pic_top="384" text_left="512" text_top="100"/>
+    <POSITION index="10" pic_left="880" pic_top="384" text_left="512" text_top="100"/>
+    <POSITION index="11" pic_left="512" pic_top="200" text_left="512" text_top="330"/>
+    <CREDITSCREEN title="国家的崛起" pos="0">
+      <CREDIT text="设计小组"/>
+      <MEDIA filename="" time="4"/>
+    </CREDITSCREEN>
+    <CREDITSCREEN title=" " pos="1">
+	  <CREDIT text="{设计指导}"/>
+      <CREDIT text="Brian Reynolds"/>
+	  <CREDIT text=" "/>
+      <CREDIT text="{设计员}"/>
+      <CREDIT text="Douglas Kaufman"/>
+      <CREDIT text="John Hawkins"/>
+      <CREDIT text="Mark Sobota"/>
+      <CREDIT text="Ike Ellis"/>
+      <MEDIA filename=".\credits\design.tga" time="8"/>
+    </CREDITSCREEN>
+    <CREDITSCREEN title=" " pos="3">
+	  <CREDIT text="{执行制作}"/>
+      <CREDIT text="Tim Train"/>
+	  <CREDIT text=" "/>
+      <CREDIT text="{制作人}"/>
+      <CREDIT text="Paul Stephanouk"/>
+	  <CREDIT text="Jason Schklar"/>
+	  <CREDIT text=" "/>
+	  <CREDIT text="{实习制作人}"/>
+      <CREDIT text="Mathew Bloch"/>
+      <CREDIT text="Lindsey Wilkinson"/>
+	  <MEDIA filename=".\credits\production.tga" time="8"/>     
+    </CREDITSCREEN>
+    <CREDITSCREEN title=" " pos="1">
+	  <CREDIT text="{程序指导}"/>
+      <CREDIT text="Jason Coleman"/>
+	  <CREDIT text=" "/>
+      <CREDIT text="{程序员}"/>
+      <CREDIT text="Jason Bestimt"/>
+      <CREDIT text="Pranas Pauliukonis"/>
+      <CREDIT text="Bryant Freitag"/>
+      <CREDIT text="Scott Lewis"/>
+      <CREDIT text="Ilya Kreymer"/>
+      <CREDIT text="Stuart Jeff"/>
+	  <CREDIT text="Jhon Restrepo"/>
+	  <CREDIT text="Mike LeGrand"/>
+	  <CREDIT text=" "/>
+	  <CREDIT text="{实习程序员}"/>
+      <CREDIT text="Zackery Smith"/>
+      <CREDIT text="Josh Mitnick"/>
+      <MEDIA filename=".\credits\programmers.tga" time="8"/>
+    </CREDITSCREEN>
+    <CREDITSCREEN title=" " pos="6">
+	  <CREDIT text="{艺术总监}"/>
+      <CREDIT text="David Inscore"/>
+	  <CREDIT text=" "/>       
+      <CREDIT text="{角色艺术指导}"/>
+      <CREDIT text="Bill Podurgiel"/>
+	  <CREDIT text=" "/>  
+      <CREDIT text="{建筑艺术指导}"/>
+      <CREDIT text="Ted Terranova"/>
+	  <CREDIT text=" "/>  
+      <CREDIT text="{艺术效果}"/>
+      <CREDIT text="Zero Dean"/>
+      <CREDIT text="John FitzGerald III"/>
+      <CREDIT text="Jason Johnson"/>
+      <CREDIT text="Jonathan Jacobson"/>
+      <CREDIT text="Michael D. M. Smith"/>
+      <CREDIT text="David Locke"/>
+      <CREDIT text="Dan Halka"/>
+      <CREDIT text="Eric Kwon"/>
+	  <CREDIT text="Jeff Feligno"/>
+	  <CREDIT text=" "/>  
+	  <CREDIT text="{实习艺术效果}"/>
+      <CREDIT text="Jay Gillen"/>
+      <CREDIT text="Adam Hale"/>
+	  <CREDIT text=" "/>  
+      <MEDIA filename=".\credits\art.tga" time="8"/>
+    </CREDITSCREEN>
+    <CREDITSCREEN title=" " pos="3">
+      <CREDIT text="{总务经理}"/>
+      <CREDIT text="Jennifer Coenen"/>
+      <CREDIT text=" "/>
+      <CREDIT text="{信息经理}"/>
+      <CREDIT text="Michael Payne"/>
+      <CREDIT text=" "/> 
+	  <CREDIT text="{信息支持}"/>
+      <CREDIT text="Mark Whitehead"/>
+      <CREDIT text=" "/>
+      <CREDIT text="{社区论坛管理}"/>
+      <CREDIT text="Graham Somers"/>
+      <MEDIA filename=".\credits\support.tga" time="8"/>
+    </CREDITSCREEN>
+	<CREDITSCREEN title=" " pos="2">
+	  <CREDIT text="{测试经理}"/>
+      <CREDIT text="Chris Coleman"/>
+	  <CREDIT text=" "/>
+      <CREDIT text="{Big Huge 测试组}"/>
+      <CREDIT text="Jason Cain"/>
+      <CREDIT text="Andrew Clark"/>
+      <CREDIT text="Gregory Marques"/>
+      <CREDIT text="Brad Turner"/>
+      <CREDIT text="Fabio Tola"/>
+      <CREDIT text="Kamil Kuza"/>
+      <CREDIT text="Ryan McFall"/>
+      <MEDIA filename=".\credits\playtest.tga" time="8"/>
+    </CREDITSCREEN>
+    <CREDITSCREEN title="Big Huge 感谢" pos="4">
+	  <CREDIT text=" "/>
+      <CREDIT text="Jonathan Bell"/>
+      <CREDIT text="Harold Simons"/>
+	  <CREDIT text="Allen Rausch"/>
+      <CREDIT text="Marc Asher"/>
+      <CREDIT text="Robert Gendler"/>
+	  <CREDIT text="David Train"/>
+	  <CREDIT text="Stuart Moulder"/>
+	  <CREDIT text="Greenber Traurig"/>
+	  <CREDIT text="Asher &amp; Simons"/>
+	  <CREDIT text="Intel Corporation"/>
+	  <CREDIT text="Matthias Wloka, Nvidia Corporation"/>
+      <MEDIA filename="" time="8"/>
+    </CREDITSCREEN>
+    <CREDITSCREEN title="特别鸣谢" pos="4">
+      <CREDIT text=" "/>
+      <CREDIT text="Jill, Ro, and Tay Reynolds"/>
+	  <CREDIT text="Eva Train"/>
+      <CREDIT text="Anjeli and Marcus Inscore"/>
+	  <CREDIT text="Holly and Ella Coleman"/>  
+      <CREDIT text="Allegra Kim"/>   
+      <CREDIT text="Wendy, Adam, and Naomi Kaufman"/>
+      <CREDIT text="Vicky Barone and the Bestimt Family"/>
+      <CREDIT text="Sharon &amp; Nicole Stephanouk"/>
+      <CREDIT text="Kym and Gamera"/>
+	  <CREDIT text="Stephanie Coleman"/>
+      <CREDIT text="Meggan Johnson"/>     
+      <CREDIT text="Helai and Carter"/>
+	  <CREDIT text="Bonnie, Tom, Schuyler, &amp; Jocelyn Dean"/>
+      <CREDIT text="Sylvia and Jeffrey Jacobson"/>
+      <CREDIT text="Kelsey Hicks &amp; The Ellis Family"/>
+      <CREDIT text="Angi Freitag"/>
+      <CREDIT text="Eric &amp; Todd Lewis"/>
+      <CREDIT text="Stephanie &amp; Christopher Payne"/>
+      <CREDIT text="Melanie Lofton"/>
+      <CREDIT text="Mom, Dad, Rachel, &amp; Lisa Schklar"/>
+	  <CREDIT text="Alice Bloch"/>
+      <CREDIT text="and INS Agents everywhere!"/>
+      <MEDIA filename="" time="8"/>
+    </CREDITSCREEN>
+    <CREDITSCREEN title="微软小组" pos="4">
+      <CREDIT text=" "/>
+      <CREDIT text="{制作人}"/>
+      <CREDIT text="Steven Hill    制作人"/>
+	  <CREDIT text="Danan Davis    制作人"/>
+	  <CREDIT text="James McDaniel    制作人"/>
+      <CREDIT text=" "/>
+      <CREDIT text="{测试小组}"/>
+      <CREDIT text="Jason Richert    软件测试主管"/>
+	  <CREDIT text="Bruce &quot;Wiley&quot; Carr Jr. (Volt)    软件测试工程师"/>
+	  <CREDIT text="Sean J. Cruz (Volt)    软件测试工程师"/>
+	  <CREDIT text="James A. Duchow (Volt)    软件测试工程师"/>
+	  <CREDIT text="Michael &quot;Axehilt&quot; Engle (Volt)    软件测试工程师 "/>
+	  <CREDIT text="Ryan C. Lewis (Volt)    软件测试工程师"/>
+	  <CREDIT text="William &quot;Silvery Dragon&quot; Loera (Volt)    软件测试工程师"/>
+	  <CREDIT text="Dennis W. Stone    软件测试工程师 "/>
+	  <CREDIT text="Jeremy Baird Tate (Volt)    软件测试工程师"/>
+	  <CREDIT text="George Townsend (Volt)    软件测试工程师"/>
+	  <CREDIT text="Michael W. Wagner (Volt)    软件测试工程师"/>
+	  <CREDIT text="Marc K. Watkins (Excell)    软件测试工程师"/>
+	  <CREDIT text="Sean Jenkin    SDET 主管"/>
+	  <CREDIT text="Marwan Jubran    软件设计工程师/测试"/>
+	  <CREDIT text="Steve Dolan   软件设计工程师/测试"/>
+	  <CREDIT text="Patrick Ascolese    配置测试人员"/>
+	  <CREDIT text="Mehdi Slaoui Andaloussi    多人游戏测试人员"/>
+	  <CREDIT text="Patrick O'Day (Volt)    多人游戏测试人员"/>
+	  <CREDIT text="Joshua Strong (Volt)    实验室技师"/>
+	  <CREDIT text="Chris Green (Volt)    黑盒测试人员"/>
+	  <CREDIT text="Phil Balsley (Volt)    黑盒测试人员"/>
+	  <CREDIT text="James M. Costello (Volt)    黑盒测试人员"/>
+	  <CREDIT text="Tokini Dodoye-Alali (Volt)    黑盒测试人员"/>
+	  <CREDIT text="Dustin Worrell (Volt)    黑盒测试人员"/>
+	  <CREDIT text="Karla Margeson (Volt)    黑盒测试人员"/>    
+      <MEDIA filename="" time="8"/>
+    </CREDITSCREEN>
+    <CREDITSCREEN title="微软小组" pos="4">     
+      <CREDIT text=" "/>
+      <CREDIT text="{使用测试}"/>
+      <CREDIT text="Eric Schuh    使用测试组主管"/>
+	  <CREDIT text="Bill Fulton    使用测试组经理"/>
+	  <CREDIT text="Melissa Federoff (Siemens Business Services)    使用测试助理"/>
+	  <CREDIT text="John Warren Hopson (Excell Data Corporation)    使用测试助理"/>
+      <CREDIT text=" "/>
+      <CREDIT text="{安装小组}"/>
+      <CREDIT text="Sean Stroud (Siemens Business Services)    安装组主管"/>
+	  <CREDIT text="Jason Brown (Siemens Business Services)    脚本编写人员"/>
+	  <CREDIT text="Randy Shedden    研发人员"/>
+	  <CREDIT text="Christopher Guthrie (Siemens Business Services)    反盗版人员"/>
+      <CREDIT text=" "/>
+	  <CREDIT text="{产品计划}"/>
+      <CREDIT text="Jon Kimmich    产品计划主管"/>
+      <CREDIT text=" "/>
+	  <CREDIT text="{市场}"/>
+      <CREDIT text="John Dongelmans    产品经理"/>
+	  <CREDIT text="Stephanie Peterson    国际化产品经理"/>
+      <CREDIT text="Lisa Krost    产品包装"/>
+      <CREDIT text="Jen Martin    公关经理"/>
+	  <CREDIT text="Ran Feder    渠道市场经理"/>
+	  <CREDIT text="Nate Brooling (Kelly Services Inc)    在线广告经理"/>
+	  <CREDIT text="Ryan James (Edelman)"/>
+	  <CREDIT text="Annie Eckles (Edelman)"/>
+	  <CREDIT text="Brian Rekasis    广告经理"/>
+	  <CREDIT text="Claudine Ursino    推销主管经理"/>
+	  <CREDIT text="Gina Jones    业务产品经理"/>
+	  <CREDIT text="Tim Stuart    相关财政分析"/>    
+      <MEDIA filename="" time="8"/>
+    </CREDITSCREEN>
+	<CREDITSCREEN title="微软小组" pos="4"> 
+	  <CREDIT text=" "/>
+      <CREDIT text="{声音制作}"/>
+      <CREDIT text="Duane Decker    作曲 / 混音 / 控制"/>
+	  <CREDIT text="Mary Olson (ArtSource)    工程师"/>
+      <CREDIT text="Bill Wolford    音效设计"/>
+      <CREDIT text=" "/>
+	  <CREDIT text="{管弦乐队}"/>
+      <CREDIT text="Stan LePard    管弦乐作曲"/>
+      <CREDIT text="Simon James    首席小提琴"/>
+      <CREDIT text="Ronald Patterson    小提琴"/>
+      <CREDIT text="Steve Bryant    小提琴"/>
+      <CREDIT text="Alicia Yang    小提琴"/>
+      <CREDIT text="Susan J. Bryant    中提琴"/>
+      <CREDIT text="Roxanna Patterson    中提琴"/>
+      <CREDIT text="Charles Jacot    大提琴"/>
+      <CREDIT text="Amos Yang    大提琴"/>
+      <CREDIT text="Jennifer Godfrey    低音大提琴"/>
+      <CREDIT text="L. Russell Campbell    小号"/>
+      <CREDIT text="Rodger Burnett    法国圆号"/>
+      <CREDIT text="Jeff Fair    法国圆号"/>
+      <CREDIT text="Hamod Abu-Eid    长号"/>
+      <CREDIT text="Ryan W. Schultz    低音长号"/>
+      <CREDIT text="Erin James    长笛/低音长笛"/>
+      <CREDIT text="Janet L. Putnam    双簧管/英国圆号"/>
+      <CREDIT text="Derek Decker    军鼓 on &quot;Rockets&quot;"/>
+      <CREDIT text="Eric Lucas    鼓乐指挥"/>
+      <CREDIT text="James Hawkins    军鼓"/>
+      <CREDIT text="Jared Brown    军鼓"/>
+      <CREDIT text="Desiree Decker    Quads"/>
+      <CREDIT text="Joe Britton    Quads"/>
+      <CREDIT text="Kris Petter    大低音鼓"/>
+	  <CREDIT text="Nick Matthies    小低音鼓"/>
+	  <CREDIT text="Elias Haldorsen    钗钹"/>
+      <CREDIT text="Duane Decker    其他乐器"/>
+      <MEDIA filename="" time="8"/>
+    </CREDITSCREEN>
+    <CREDITSCREEN title="微软小组" pos="4">
+      <CREDIT text=" "/>
+      <CREDIT text="{配音}"/>
+      <CREDIT text="Jock Blaney    旁白"/>
+      <CREDIT text=""/>
+	  <CREDIT text="{产品支持}"/>
+      <CREDIT text="Greg Frankovic"/>
+	  <CREDIT text=" "/>
+      <CREDIT text="{研发}"/>
+      <CREDIT text="Glenn Doren   软件设计工程师"/>
+      <CREDIT text="Jesse Janosov   软件设计工程师"/>
+      <CREDIT text="Alex Robinson (Siemens Business Services, Inc)   安装软件设计工程师"/>
+      <CREDIT text=" "/>
+	  <CREDIT text="{用户体验 - 内容主管}"/>
+      <CREDIT text="Beth Demetrescu"/>
+      <CREDIT text="Eric Nylund"/>
+	  <CREDIT text=" "/>
+	  <CREDIT text="{用户体验 - 内容创造}"/>
+      <CREDIT text="Bryan Howell"/>
+	  <CREDIT text="Jeannie Voirin"/>
+	  <CREDIT text="Chris Lassen"/>
+      <CREDIT text="Melanie Henry (S&amp;T Onsite)"/>
+	  <CREDIT text="Yvette Kirby Waters (S&amp;T Onsite)"/>
+	  <CREDIT text=" "/>
+      <CREDIT text="{地缘战略}"/>
+	  <CREDIT text="Tom Edwards    地缘战略专家"/>
+	  <MEDIA filename="" time="8"/>
+    </CREDITSCREEN>
+	<CREDITSCREEN title="微软小组" pos="4">
+	  <CREDIT text=" "/>
+	  <CREDIT text="{法律法规}"/>
+	  <CREDIT text="Peter Becker"/>
+	  <CREDIT text="Jama Cantrell"/>
+	  <CREDIT text="Hubert Cheng"/>
+	  <CREDIT text="Sue Stickney"/>
+	  <CREDIT text="Judy Weston"/>
+      <CREDIT text=" "/>
+	  <CREDIT text="{管理}"/>
+      <CREDIT text="Ed Fries    MGS 副总裁"/>
+	  <CREDIT text="Phil Spencer    MGS 发行总经理"/>
+	  <CREDIT text="Ken Lobb    工作室经理"/>
+	  <CREDIT text="Shannon Loftis    程序管理"/>
+	  <CREDIT text="Jimbo Pfieffer    测试经理"/>
+	  <CREDIT text="Greg B. Jones    出版测试经理"/>
+	  <CREDIT text="Chenelle Bremont    行政助理"/>
+	  <CREDIT text="Chris Di Cesare    产品市场主管"/>
+	  <CREDIT text="Peter Kingsley    Intl 小组产品经理"/>
+	  <CREDIT text="Beth Featherstone    高级市场主管"/>
+	  <CREDIT text="Eli Friedman    市场经理"/>
+	  <CREDIT text="Gunn Robison    渠道市场经理"/>
+	  <CREDIT text="Jo Tyo    创意经理"/>
+	  <CREDIT text="Matt Whiting    用户体验经理"/>
+	  <CREDIT text="Jeremy Los     用户体验经理"/>
+	  <MEDIA filename="" time="8"/>
+    </CREDITSCREEN>
+	<CREDITSCREEN title="国家的崛起本地化小组" pos="4">
+	  <CREDIT text=" "/>
+      <CREDIT text="{美国组}"/>
+	  <CREDIT text="Ann Foley (S&amp;T Onsite)    本地化程序管理"/>
+      <CREDIT text="Kazuyuki Shibuya    软件测试工程师"/>
+	  <CREDIT text="Lief Thompson    本地化程序管理"/>
+      <CREDIT text=" "/>
+	  <CREDIT text="{汉城组}"/>
+	  <CREDIT text="Jae Youn Kim    本地化程序管理"/>
+      <CREDIT text="Il Jin Park (ManPower)	  软件测试工程师"/>
+	  <CREDIT text="Whi Young Yoon (Wise SerTech)    本地化程序管理"/>
+      <CREDIT text="Ji Young Kim (R&amp;D)    本地化程序管理"/>
+	  <CREDIT text=" "/>
+	  <CREDIT text="{东京组}"/>
+	  <CREDIT text="Kaoru Ito    本地化程序管理"/>
+      <CREDIT text="Kazuyuki Kumai    SR 经理"/>
+	  <CREDIT text="Masaki Kokubun (ManPower)    测试人员"/>
+      <CREDIT text="Miyuki Nouguchi (Japan Convention Service)    用户体验"/>
+	  <CREDIT text="Munetaka Fuse    软件研发工程师"/>
+      <CREDIT text="Yuji Yoneshige    测试主管"/>
+	  <CREDIT text="Yukihiro Ishida    本地化程序管理"/>
+	  <CREDIT text="Yutaka Hasegawa    首席软件研发工程师"/>
+	  <MEDIA filename="" time="8"/>
+	</CREDITSCREEN>
+	<CREDITSCREEN title="国家的崛起本地化小组" pos="4">
+	  <CREDIT text=" "/>
+	  <CREDIT text="{台湾组}"/>
+	  <CREDIT text="Carole Lin (Turnkey)    本地化程序管理"/>
+      <CREDIT text="Cathy Chen (Turnkey)    软件测试工程师"/>
+	  <CREDIT text="Lana Peng    程序管理"/>
+      <CREDIT text="Lilia Lee (Turnkey)    软件测试工程师"/>
+	  <CREDIT text="Wen-Chin Deng    首席测试工程师"/>
+	  <CREDIT text=" "/>
+	  <CREDIT text="{爱尔兰组}"/>
+	  <CREDIT text="Enda Kelly    首席测试工程师"/>
+      <CREDIT text="Ciaran Boylan    软件测试工程师"/>
+	  <CREDIT text="Bernard Morgan    软件测试工程师"/>
+      <CREDIT text="Niamh Marsh    UX 经理"/>
+	  <CREDIT text="Jude Shiels    软件测试工程师"/>
+	  <CREDIT text="Redmond O' Hanlon    软件测试工程师"/>
+      <CREDIT text="Rita Thiede    本地化程序管理"/>
+	  <CREDIT text="Steven Garrad    软件研发工程师"/>
+	  <MEDIA filename="" time="8"/>
+	</CREDITSCREEN>
+    <CREDITSCREEN title="微软感谢" pos="4">
+      <CREDIT text="Michele D' Amour"/>
+      <CREDIT text="Justin Greywolf"/>
+      <MEDIA filename="" time="4"/>
+    </CREDITSCREEN>
+    <CREDITSCREEN title="国家的崛起: 一个划时代的游戏" pos="11">
+      <CREDIT text=" "/>
+      <CREDIT text="照片由 Corbis 提供."/>
+      <CREDIT text=" "/>
+      <CREDIT text="本产品使用了 GameSpy Industries 公司的专有技术."/>
+      <CREDIT text=" (c) 1999-2004 GameSpy Industries, Inc. "/>
+      <CREDIT text='GameSpy 和 "Powered by GameSpy" 是 GameSpy Industries 公司的商标.'/>
+      <CREDIT text="保留所有权利."/>
+      <MEDIA filename=".\credits\bhg_logo_endcredit.tga" time="5"/>
+    </CREDITSCREEN>
+  </CREDITSWIN>
+</ROOT>

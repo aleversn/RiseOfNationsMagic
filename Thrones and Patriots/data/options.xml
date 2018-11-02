@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- Translated by KK Games) -->
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Scott Lewis (Big Huge Games) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<OPTIONS xml:space="preserve">
+	<!--LOCALIZATION-->
+	<!--LOCALIZATION-->
+	<!--LOCALIZATION-->
+	<!--LOCALIZATION: NAME and DESC elements-->
+	<!--LOCALIZATION-->
+	<!--LOCALIZATION-->
+	<!--LOCALIZATION-->
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="2" tex_row="0" clip="0">
+		<ENGLISH_NAME>Buildings</ENGLISH_NAME>
+		<NAME>建筑</NAME>
+		<DESC>建造一座新的建筑.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="3" tex_row="0" clip="0">
+		<ENGLISH_NAME>Military Buildings</ENGLISH_NAME>
+		<NAME>军事建筑</NAME>
+		<DESC>建造一座新的军事建筑.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="0" clip="0">
+		<ENGLISH_NAME>Wonders</ENGLISH_NAME>
+		<NAME>奇迹</NAME>
+		<DESC>建造一座新的奇迹.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="0" clip="0">
+		<ENGLISH_NAME>Repair/Build</ENGLISH_NAME>
+		<NAME>修理/建造</NAME>
+		<DESC>修理一座建筑或增派工人建造建筑.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="3" clip="0">
+		<ENGLISH_NAME>Craft</ENGLISH_NAME>
+		<NAME>建造量</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="3" clip="0">
+		<ENGLISH_NAME>Move Mode</ENGLISH_NAME>
+		<NAME>移动模式</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="3" clip="0">
+		<ENGLISH_NAME>Guard</ENGLISH_NAME>
+		<NAME>警戒</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="1" clip="0">
+		<ENGLISH_NAME>Follow</ENGLISH_NAME>
+		<NAME>跟随</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="4" clip="0">
+		<ENGLISH_NAME>Patrol</ENGLISH_NAME>
+		<NAME>巡逻</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="6" clip="0">
+		<ENGLISH_NAME>Move</ENGLISH_NAME>
+		<NAME>移动</NAME>
+		<DESC>单击移动.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="0" tex_row="5" clip="0">
+		<ENGLISH_NAME>Attack</ENGLISH_NAME>
+		<NAME>攻击</NAME>
+		<DESC>单击攻击.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="3" clip="0">
+		<ENGLISH_NAME>Explore Move</ENGLISH_NAME>
+		<NAME>停止探索</NAME>
+		<DESC>停止探索遗迹.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="0" tex_row="6" clip="0">
+		<ENGLISH_NAME>Flee</ENGLISH_NAME>
+		<NAME>撤退</NAME>
+		<DESC>和敌人脱离接触.</DESC>
+	</OPTION>
+	<OPTION tex_col="1" tex_row="2" clip="0">
+		<ENGLISH_NAME>Transport To</ENGLISH_NAME>
+		<NAME>运输</NAME>
+		<DESC>移动并穿越水域.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="2" tex_row="2" clip="0">
+		<ENGLISH_NAME>Auto Transport</ENGLISH_NAME>
+		<NAME>自动运输</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="0" clip="0">
+		<ENGLISH_NAME>Disband</ENGLISH_NAME>
+		<NAME>解散</NAME>
+		<DESC>解散选定的单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Disband All</ENGLISH_NAME>
+		<NAME>全部解散</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Stance</ENGLISH_NAME>
+		<NAME>状态</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Stance Back</ENGLISH_NAME>
+		<NAME>恢复状态</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_x="0" tex_y="0" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Formation</ENGLISH_NAME>
+		<NAME> 队形</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Formation Back</ENGLISH_NAME>
+		<NAME>恢复队形</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="5" tex_row="11" clip="0">
+		<ENGLISH_NAME>Face Left</ENGLISH_NAME>
+		<NAME>向左转</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="11" clip="0">
+		<ENGLISH_NAME>Face Right</ENGLISH_NAME>
+		<NAME>向右转</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>About Face</ENGLISH_NAME>
+		<NAME>向后转</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="6" clip="0">
+		<ENGLISH_NAME>Forward</ENGLISH_NAME>
+		<NAME>前进</NAME>
+		<DESC>单击前进.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="1" clip="0">
+		<ENGLISH_NAME>Halt</ENGLISH_NAME>
+		<NAME>停止</NAME>
+		<DESC>停止当前行动.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="1" clip="0">
+		<ENGLISH_NAME>Garrison/Heal</ENGLISH_NAME>
+		<NAME>驻防/治疗</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="2" clip="0">
+		<ENGLISH_NAME>Alarm Peasant</ENGLISH_NAME>
+		<NAME>市民警戒</NAME>
+		<DESC>让工人撤到安全地带.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="2" clip="0">
+		<ENGLISH_NAME>Alarm</ENGLISH_NAME>
+		<NAME>警报</NAME>
+		<DESC>发出警报.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="3" tex_row="2" clip="0">
+		<ENGLISH_NAME>All Clear</ENGLISH_NAME>
+		<NAME>解除警报</NAME>
+		<DESC>发出解除警报.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="7" clip="0">
+		<ENGLISH_NAME>Back To Work</ENGLISH_NAME>
+		<NAME>返回工作</NAME>
+		<DESC>使防守的市民返回工作.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="5" tex_row="1" clip="0">
+		<ENGLISH_NAME>Eject All</ENGLISH_NAME>
+		<NAME>全部撤出</NAME>
+		<DESC>撤出货物/驻军.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="2" clip="0">
+		<ENGLISH_NAME>Disembark</ENGLISH_NAME>
+		<NAME>登陆</NAME>
+		<DESC>登陆到特定位置.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="3" clip="0">
+		<ENGLISH_NAME>Auto Explore</ENGLISH_NAME>
+		<NAME>自动探索</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="0" tex_row="2" clip="0">
+		<ENGLISH_NAME>Bombard Ground</ENGLISH_NAME>
+		<NAME>强制攻击</NAME>
+		<DESC>攻击地图上某个位置, 而不是具体的目标.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="4" clip="0">
+		<ENGLISH_NAME>Transfer</ENGLISH_NAME>
+		<NAME>转场</NAME>
+		<DESC>将单位转移到其它建筑物.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="5" tex_row="8" clip="0">
+		<ENGLISH_NAME>Air Mission</ENGLISH_NAME>
+		<NAME>空中任务</NAME>
+		<DESC>下达空袭或空中巡逻指令.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Air Patrol</ENGLISH_NAME>
+		<NAME>空中巡逻</NAME>
+		<DESC>下达到特定位置空中巡逻的指令.</DESC>
+	</OPTION>
+	<OPTION tex_col="8" tex_row="0" clip="0">
+		<ENGLISH_NAME>Flight Orders</ENGLISH_NAME>
+		<NAME>飞行命令</NAME>
+		<DESC>对选定的飞行器下达指令.</DESC>
+	</OPTION>
+	<OPTION tex_col="8" tex_row="4" clip="0">
+		<ENGLISH_NAME>Select Fighters</ENGLISH_NAME>
+		<NAME>选择战斗机</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="8" tex_row="4" clip="0">
+		<ENGLISH_NAME>Select Bombers</ENGLISH_NAME>
+		<NAME>选择轰炸机</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="8" tex_row="4" clip="0">
+		<ENGLISH_NAME>Select Helicopters</ENGLISH_NAME>
+		<NAME>选择直升机</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="8" tex_row="4" clip="0">
+		<ENGLISH_NAME>Select All Aircraft</ENGLISH_NAME>
+		<NAME>选择所有飞行器</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="7" clip="0">
+		<ENGLISH_NAME>Scramble</ENGLISH_NAME>
+		<NAME>紧急起飞</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="0" tex_row="11" clip="0">
+		<ENGLISH_NAME>Repeat Orders</ENGLISH_NAME>
+		<NAME>重复命令</NAME>
+		<DESC>允许(或不允许) 飞机着陆和加油后 重复先前的指令.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="2" tex_row="1" clip="0">
+		<ENGLISH_NAME>Return To Base</ENGLISH_NAME>
+		<NAME>返回基地</NAME>
+		<DESC>命令飞机取消行动, 返回基地.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="0" tex_row="10" clip="0">
+		<ENGLISH_NAME>Recall</ENGLISH_NAME>
+		<NAME>召回</NAME>
+		<DESC>召回所有从该基地起飞的飞机, 并取消所有飞行.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Create</ENGLISH_NAME>
+		<NAME>创建</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Research</ENGLISH_NAME>
+		<NAME>研究</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Research Category</ENGLISH_NAME>
+		<NAME>研究类别</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Upgrade</ENGLISH_NAME>
+		<NAME>升级</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="4" clip="0">
+		<ENGLISH_NAME>Rally Point</ENGLISH_NAME>
+		<NAME>集结点</NAME>
+		<DESC>设置建筑物的集结点.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_1" tex_col="3" tex_row="4" clip="0">
+		<ENGLISH_NAME>Clear Rally Point</ENGLISH_NAME>
+		<NAME>清除集结点</NAME>
+		<DESC>移除建筑物的集结点.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_1" tex_col="0" tex_row="5" clip="0">
+		<ENGLISH_NAME>Rally on Farms</ENGLISH_NAME>
+		<NAME>集结到农场</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_1" tex_col="1" tex_row="5" clip="0">
+		<ENGLISH_NAME>Rally on Woodcutter's Camps</ENGLISH_NAME>
+		<NAME>集结到伐木场</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_1" tex_col="2" tex_row="5" clip="0">
+		<ENGLISH_NAME>Rally on Mines</ENGLISH_NAME>
+		<NAME>集结到采矿场</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_1" tex_col="3" tex_row="5" clip="0">
+		<ENGLISH_NAME>Rally on Resource Buildings</ENGLISH_NAME>
+		<NAME>集结到资源建筑物</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Buy</ENGLISH_NAME>
+		<NAME>购买</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Buy 500</ENGLISH_NAME>
+		<NAME>购买 500</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Buy All</ENGLISH_NAME>
+		<NAME>全部购买</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Sell</ENGLISH_NAME>
+		<NAME>出售</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Sell 500</ENGLISH_NAME>
+		<NAME>出售 500</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Sell All</ENGLISH_NAME>
+		<NAME>全部出售</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="5" clip="0">
+		<ENGLISH_NAME>Building Stance</ENGLISH_NAME>
+		<NAME>建筑物状态</NAME>
+		<DESC>设置该处建造的单位的初始状态.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Infinite Queue</ENGLISH_NAME>
+		<NAME>无限队列</NAME>
+		<DESC>将该建筑设置为无限建造.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_0" tex_col="0" tex_row="1" clip="0">
+		<ENGLISH_NAME>Next</ENGLISH_NAME>
+		<NAME>下一个</NAME>
+		<DESC>显示附加选项.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_0" tex_col="0" tex_row="0" clip="0">
+		<ENGLISH_NAME>Back</ENGLISH_NAME>
+		<NAME>向后</NAME>
+		<DESC>返回到外交选项.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_0" tex_col="0" tex_row="2" clip="0">
+		<ENGLISH_NAME>Cancel</ENGLISH_NAME>
+		<NAME>取消</NAME>
+		<DESC>点击取消.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Treaty</ENGLISH_NAME>
+		<NAME>谈判</NAME>
+		<DESC>点击谈判提议.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Declare</ENGLISH_NAME>
+		<NAME>宣战</NAME>
+		<DESC>点击宣战.</DESC>
+	</OPTION>
+	<OPTION tex_col="3" tex_row="1" clip="0">
+		<ENGLISH_NAME>Tribute</ENGLISH_NAME>
+		<NAME>贡品</NAME>
+		<DESC>点击贡品提议.</DESC>
+	</OPTION>
+	<OPTION tex_col="4" tex_row="1" clip="0">
+		<ENGLISH_NAME>Clear Tributes</ENGLISH_NAME>
+		<NAME>清除贡品</NAME>
+		<DESC>点击清除贡品.</DESC>
+	</OPTION>
+	<OPTION tex_col="5" tex_row="1" clip="0">
+		<ENGLISH_NAME>Clear All</ENGLISH_NAME>
+		<NAME>全部清除</NAME>
+		<DESC>点击清除所有提议.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Demand Tribute</ENGLISH_NAME>
+		<NAME>索取贡品</NAME>
+		<DESC>点击索取贡品.</DESC>
+	</OPTION>
+	<OPTION tex_col="2" tex_row="1" clip="0">
+		<ENGLISH_NAME>Propose Attack</ENGLISH_NAME>
+		<NAME>进攻提议</NAME>
+		<DESC>点击进攻提议.</DESC>
+	</OPTION>
+	<OPTION tex_col="6" tex_row="1" clip="0">
+		<ENGLISH_NAME>Propose"</ENGLISH_NAME>
+		<NAME>提议"</NAME>
+		<DESC>提出当前的提议.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Accept"</ENGLISH_NAME>
+		<NAME>接受"</NAME>
+		<DESC>接受当前的提议.</DESC>
+	</OPTION>
+	<OPTION tex_col="7" tex_row="1" clip="0">
+		<ENGLISH_NAME>Reject"</ENGLISH_NAME>
+		<NAME>拒绝"</NAME>
+		<DESC>拒绝当前的提议.</DESC>
+	</OPTION>
+	<OPTION tex_col="7" tex_row="1" clip="0">
+		<ENGLISH_NAME>Current Resources</ENGLISH_NAME>
+		<NAME>当前资源</NAME>
+		<DESC>显示你的当前资源.</DESC>
+	</OPTION>
+	<OPTION tex_col="7" tex_row="1" clip="0">
+		<ENGLISH_NAME>Close Diplomacy</ENGLISH_NAME>
+		<NAME>关闭外交</NAME>
+		<DESC>关闭外交界面.</DESC>
+	</OPTION>
+	<OPTION tex_col="7" tex_row="1" clip="0">
+		<ENGLISH_NAME>Back to Main Diplomacy</ENGLISH_NAME>
+		<NAME>返回到外交主菜单</NAME>
+		<DESC>返回到主外交菜单.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Diplomacy Status</ENGLISH_NAME>
+		<NAME>外交状态</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Chat</ENGLISH_NAME>
+		<NAME>聊天</NAME>
+		<DESC>和其他玩家聊天.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Chat All</ENGLISH_NAME>
+		<NAME>与所有人聊天</NAME>
+		<DESC>与所有玩家聊天.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Chat Allies</ENGLISH_NAME>
+		<NAME>与盟友聊天</NAME>
+		<DESC>与所有盟友聊天.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Chat Enemies</ENGLISH_NAME>
+		<NAME>与敌人聊天</NAME>
+		<DESC>与敌人聊天.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Signal Other Players</ENGLISH_NAME>
+		<NAME>发信号给其他玩家</NAME>
+		<DESC>在此处发信号.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Resign</ENGLISH_NAME>
+		<NAME>放弃</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Quit</ENGLISH_NAME>
+		<NAME>退出</NAME>
+		<DESC>退出游戏.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Game Menu</ENGLISH_NAME>
+		<NAME>游戏菜单</NAME>
+		<DESC>打开游戏菜单.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Options Screen</ENGLISH_NAME>
+		<NAME>屏幕选项</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Game Speed Slower</ENGLISH_NAME>
+		<NAME>减慢游戏速度</NAME>
+		<DESC>降低游戏速度.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Game Speed Faster</ENGLISH_NAME>
+		<NAME>加快游戏速度</NAME>
+		<DESC>提高游戏速度.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Objectives</ENGLISH_NAME>
+		<NAME>目标</NAME>
+		<DESC>显示目标和胜利条件.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Cycle</ENGLISH_NAME>
+		<NAME>循环</NAME>
+		<DESC>查找下一个单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Idle Citizen</ENGLISH_NAME>
+		<NAME>空闲市民</NAME>
+		<DESC>查找下一个空闲的市民.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Idle Scout</ENGLISH_NAME>
+		<NAME>空闲侦察员</NAME>
+		<DESC>查找下一个侦察员或特种单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Next Military</ENGLISH_NAME>
+		<NAME>下一个军事单位</NAME>
+		<DESC>查找下一个军事单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Next General</ENGLISH_NAME>
+		<NAME>下一个将军</NAME>
+		<DESC>查找下一个将军.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Next Spy</ENGLISH_NAME>
+		<NAME>下一个间谍</NAME>
+		<DESC>查找下一个间谍.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Next Supply</ENGLISH_NAME>
+		<NAME>下一个补给单位</NAME>
+		<DESC>查找下一个补给单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Next City</ENGLISH_NAME>
+		<NAME>下一个城市</NAME>
+		<DESC>查找下一个城市.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Next Research</ENGLISH_NAME>
+		<NAME>下一个研究</NAME>
+		<DESC>查找下一个有可用研究的建筑物.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>All Citizens</ENGLISH_NAME>
+		<NAME>所有市民</NAME>
+		<DESC>选择所有空闲的市民.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>All Scout</ENGLISH_NAME>
+		<NAME>所有侦察员</NAME>
+		<DESC>选择所有侦察员或特种单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>All Military</ENGLISH_NAME>
+		<NAME>所有军事单位</NAME>
+		<DESC>选择所有军事单位(最大选择).</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>All Generals</ENGLISH_NAME>
+		<NAME>所有将军</NAME>
+		<DESC>选择所有将军.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>All Spies</ENGLISH_NAME>
+		<NAME>所有间谍</NAME>
+		<DESC>选择所有间谍.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>All Supply</ENGLISH_NAME>
+		<NAME>所有补给单位</NAME>
+		<DESC>选择所有补给单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>All Building</ENGLISH_NAME>
+		<NAME>所有建筑物</NAME>
+		<DESC>选择所有的该类型建筑物.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Select Citizen</ENGLISH_NAME>
+		<NAME>选择市民</NAME>
+		<DESC>选择下一个空闲的市民.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Select Scout</ENGLISH_NAME>
+		<NAME>选择侦察员</NAME>
+		<DESC>选择下一个侦察员.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Select Military</ENGLISH_NAME>
+		<NAME>选择军事单位</NAME>
+		<DESC>选择下一个军事单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Select General</ENGLISH_NAME>
+		<NAME>选择将军</NAME>
+		<DESC>选择下一个将军.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Select Spy</ENGLISH_NAME>
+		<NAME>选择间谍</NAME>
+		<DESC>选择下一个间谍.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Select Supply</ENGLISH_NAME>
+		<NAME>选择补给单位</NAME>
+		<DESC>选择下一个补给单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Select Building</ENGLISH_NAME>
+		<NAME>选择建筑物</NAME>
+		<DESC>选择下一个该类型建筑物.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Cycle Non-Idle Citizen</ENGLISH_NAME>
+		<NAME>循环选择市民</NAME>
+		<DESC>查找下一个市民 (含非空闲的).</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>All Non-Idle Citizen</ENGLISH_NAME>
+		<NAME>所有市民</NAME>
+		<DESC>选择所有市民 (含非空闲的).</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Select Non-Idle Citizen</ENGLISH_NAME>
+		<NAME>选择市民</NAME>
+		<DESC>选择下一个市民(含非空闲的).</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Select all of Currently Selected Types</ENGLISH_NAME>
+		<NAME>选择所有当前类型单位</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Toggle Clock Display</ENGLISH_NAME>
+		<NAME>显示游戏时钟</NAME>
+		<DESC>游戏时钟显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Toggle Game Data</ENGLISH_NAME>
+		<NAME>显示游戏数据</NAME>
+		<DESC>显示数据显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Data Display</ENGLISH_NAME>
+		<NAME>数据显示</NAME>
+		<DESC>循环数据显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Prev Data Display</ENGLISH_NAME>
+		<NAME>上一次数据显示</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Toggle Research Display</ENGLISH_NAME>
+		<NAME>调整研究显示</NAME>
+		<DESC>调整研究显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Help Text Detail</ENGLISH_NAME>
+		<NAME>帮助文本细节</NAME>
+		<DESC>更改帮助文本细节.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Prev Help Detail</ENGLISH_NAME>
+		<NAME>上一个帮助细节</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Advanced Options</ENGLISH_NAME>
+		<NAME>高级选项</NAME>
+		<DESC>显示高级菜单.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Toggle Clock</ENGLISH_NAME>
+		<NAME>显示时钟</NAME>
+		<DESC>显示游戏时钟显示器.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Toggle Friend/Foe Colors</ENGLISH_NAME>
+		<NAME>显示 盟友/敌人 颜色</NAME>
+		<DESC>显示 盟友/敌人 颜色.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Toggle City Names</ENGLISH_NAME>
+		<NAME>显示城市名称</NAME>
+		<DESC>显示城市名称.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Toggle Units Behind</ENGLISH_NAME>
+		<NAME>单位透明</NAME>
+		<DESC>显示建筑物和树木背后的单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Toggle Audio Taunts</ENGLISH_NAME>
+		<NAME>使用语音嘲弄</NAME>
+		<DESC>使用语音嘲弄.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Cycle Goods Display</ENGLISH_NAME>
+		<NAME>循环货物显示</NAME>
+		<DESC>循环货物显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Political Data</ENGLISH_NAME>
+		<NAME>国家数据</NAME>
+		<DESC>设置国家方面的数据显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Economic Data</ENGLISH_NAME>
+		<NAME>经济数据</NAME>
+		<DESC>设置经济方面的数据显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Market Data</ENGLISH_NAME>
+		<NAME>贸易数据</NAME>
+		<DESC>设置贸易方面的数据显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Military Data</ENGLISH_NAME>
+		<NAME>军事数据</NAME>
+		<DESC>设置军事方面的数据显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Cities Data</ENGLISH_NAME>
+		<NAME>城市数据</NAME>
+		<DESC>设置城市方面的数据显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Upgrade Data</ENGLISH_NAME>
+		<NAME>升级数据</NAME>
+		<DESC>设置升级方面的数据显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Control Groups</ENGLISH_NAME>
+		<NAME>控制分组</NAME>
+		<DESC>设置分组方面的数据显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Diplomacy</ENGLISH_NAME>
+		<NAME>外交</NAME>
+		<DESC>设置外交方面的数据显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Wonders</ENGLISH_NAME>
+		<NAME>奇迹</NAME>
+		<DESC>设置奇迹方面的数据显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Data Off</ENGLISH_NAME>
+		<NAME>关闭数据</NAME>
+		<DESC>关闭数据的显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Cycle Stats Display</ENGLISH_NAME>
+		<NAME>循环状态显示</NAME>
+		<DESC>循环状态的显示.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Toggle Options</ENGLISH_NAME>
+		<NAME>显示选项</NAME>
+		<DESC>显示该选项.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Strategic Map</ENGLISH_NAME>
+		<NAME>战略地图</NAME>
+		<DESC>使用战略地图察看.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Zoom In</ENGLISH_NAME>
+		<NAME>放大</NAME>
+		<DESC>放大地图.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Zoom Out</ENGLISH_NAME>
+		<NAME>缩小</NAME>
+		<DESC>缩小地图.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Save Zoom In</ENGLISH_NAME>
+		<NAME>保存放大</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Save Zoom Out</ENGLISH_NAME>
+		<NAME>保存缩小</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Center</ENGLISH_NAME>
+		<NAME>居中</NAME>
+		<DESC>将选中目标显示在屏幕中央.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Pause</ENGLISH_NAME>
+		<NAME>暂停</NAME>
+		<DESC>暂停游戏.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Cannon Time</ENGLISH_NAME>
+		<NAME>时间窃取</NAME>
+		<DESC>显示"时间窃取".</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Timer</ENGLISH_NAME>
+		<NAME>计时器</NAME>
+		<DESC>显示游戏逝去的时间和当前速度.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Victory Timer</ENGLISH_NAME>
+		<NAME>胜利倒计时</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Minimap</ENGLISH_NAME>
+		<NAME>小地图</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Capital Star</ENGLISH_NAME>
+		<NAME>首都</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Nation Flag</ENGLISH_NAME>
+		<NAME>国家旗帜</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Govern</ENGLISH_NAME>
+		<NAME>政府</NAME>
+		<DESC>更换政府.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Diplomacy</ENGLISH_NAME>
+		<NAME>外交</NAME>
+		<DESC>外交管理.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Diplomacy</ENGLISH_NAME>
+		<NAME>外交</NAME>
+		<DESC>外交管理.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Good"</ENGLISH_NAME>
+		<NAME>货物"</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Queue</ENGLISH_NAME>
+		<NAME>队列</NAME>
+		<DESC>从队列中移除该对象.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Object</ENGLISH_NAME>
+		<NAME>对象</NAME>
+		<DESC>选择该对象, CTRL+点击 移除, 按SHIFT点击仅选择此类对象.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Drag</ENGLISH_NAME>
+		<NAME>拖曳</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Mouseover Object</ENGLISH_NAME>
+		<NAME>鼠标悬浮于对象上 </NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="7" tex_row="6" clip="0">
+		<ENGLISH_NAME>Eject</ENGLISH_NAME>
+		<NAME>撤出</NAME>
+		<DESC>撤出该单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Eject Air Fueling</ENGLISH_NAME>
+		<NAME>中止空中加油</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Eject Air Ready</ENGLISH_NAME>
+		<NAME>中止空中准备</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Click to select this object</ENGLISH_NAME>
+		<NAME>点击选择该对象</NAME>
+		<DESC>点击选择该对象.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Double clicking selects all objects of this type</ENGLISH_NAME>
+		<NAME>双击选择所有此类对象</NAME>
+		<DESC>双击选择所有此类对象.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Category of research</ENGLISH_NAME>
+		<NAME>研究类别</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Show limits</ENGLISH_NAME>
+		<NAME>显示上限</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Airbase icons</ENGLISH_NAME>
+		<NAME>空军基地图标</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Heads</ENGLISH_NAME>
+		<NAME>人口</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Border</ENGLISH_NAME>
+		<NAME>国界</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Current Nation</ENGLISH_NAME>
+		<NAME>当前国家</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Nation</ENGLISH_NAME>
+		<NAME>国家</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Current Age</ENGLISH_NAME>
+		<NAME>当前时代</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Age</ENGLISH_NAME>
+		<NAME>时代</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Group</ENGLISH_NAME>
+		<NAME>分组</NAME>
+		<DESC>右击创建. 左击选择. (热键: Ctrl+数字键 - 创建; 数字键选择; Shift+数字键 - 取消分组).</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Creating Fighter Bomber</ENGLISH_NAME>
+		<NAME>正在建造战斗轰炸机</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="11" clip="0">
+		<ENGLISH_NAME>Must Assimilate City</ENGLISH_NAME>
+		<NAME>必须同化城市</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Neutralized</ENGLISH_NAME>
+		<NAME>被压制</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Enemy Territory</ENGLISH_NAME>
+		<NAME>敌军领土</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>No Nearby City</ENGLISH_NAME>
+		<NAME>无附近城市</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Cancel Building</ENGLISH_NAME>
+		<NAME>取消建造</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Cancel Action</ENGLISH_NAME>
+		<NAME>取消行动</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Cancel Action</ENGLISH_NAME>
+		<NAME>取消行动</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="11" clip="0">
+		<ENGLISH_NAME>Assimilating</ENGLISH_NAME>
+		<NAME>同化</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Land</ENGLISH_NAME>
+		<NAME>登陆</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Researching</ENGLISH_NAME>
+		<NAME>研究中</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Wonder</ENGLISH_NAME>
+		<NAME>奇迹</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Disbanding</ENGLISH_NAME>
+		<NAME>解散中</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Select</ENGLISH_NAME>
+		<NAME>选择</NAME>
+		<DESC>点击进入选择模式, 选择和编辑 放置在地图上的单位和建筑物.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Scenario Options</ENGLISH_NAME>
+		<NAME>游戏剧情选项</NAME>
+		<DESC>点击编辑该剧情的规则和游戏设置.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Nation Options</ENGLISH_NAME>
+		<NAME>国家选项</NAME>
+		<DESC>点击编辑游戏中的国家选项, 包括名称, 国家, 开始资源, 和AI设定.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Map Generator</ENGLISH_NAME>
+		<NAME>地图生成器</NAME>
+		<DESC>点击生成一幅新的随机地图 或从图象文件中导入一幅地图.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Terrain</ENGLISH_NAME>
+		<NAME>地形</NAME>
+		<DESC>点击编辑地形, 包括陆地/海洋, 山脉, 和森林.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Rare Resources</ENGLISH_NAME>
+		<NAME>稀缺资源</NAME>
+		<DESC>增加和删除稀缺资源.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Units</ENGLISH_NAME>
+		<NAME>单位</NAME>
+		<DESC>增加和删除单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Buildings</ENGLISH_NAME>
+		<NAME>建筑物</NAME>
+		<DESC>点击增加和删除建筑物.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Diplomacy</ENGLISH_NAME>
+		<NAME>外交</NAME>
+		<DESC>点击编辑外交状态.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Diplomacy</ENGLISH_NAME>
+		<NAME>外交</NAME>
+		<DESC>点击编辑外交状态.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Edit Script</ENGLISH_NAME>
+		<NAME>编辑脚本</NAME>
+		<DESC>点击创建, 编辑或调试剧情脚本.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Starting Resources</ENGLISH_NAME>
+		<NAME>开始资源</NAME>
+		<DESC>点击编辑开始资源.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Starting Tech</ENGLISH_NAME>
+		<NAME>初始科技</NAME>
+		<DESC>点击编辑初始科技.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Starting Library Tech</ENGLISH_NAME>
+		<NAME>初始图书馆科技</NAME>
+		<DESC>点击编辑图书馆科技.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>AI settings</ENGLISH_NAME>
+		<NAME>AI设定</NAME>
+		<DESC>点击编辑电脑玩家的AI设定.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Change Leader Name</ENGLISH_NAME>
+		<NAME>更改领袖名称</NAME>
+		<DESC>点击更改领袖名称.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Ignore Pop Cap</ENGLISH_NAME>
+		<NAME>忽略人口上限</NAME>
+		<DESC>点击忽略人口上限.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Delete</ENGLISH_NAME>
+		<NAME>删除</NAME>
+		<DESC>删除该国家.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Options</ENGLISH_NAME>
+		<NAME>选项</NAME>
+		<DESC>点击从剧情编辑器中提出选项菜单.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Quit</ENGLISH_NAME>
+		<NAME>退出</NAME>
+		<DESC>点击退出剧情编辑器.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Save</ENGLISH_NAME>
+		<NAME>保存</NAME>
+		<DESC>保存该剧情.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Load</ENGLISH_NAME>
+		<NAME>载入</NAME>
+		<DESC>载入剧情文件.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Test Scenario</ENGLISH_NAME>
+		<NAME>测试剧情</NAME>
+		<DESC>测试该剧情.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Full Editor</ENGLISH_NAME>
+		<NAME>完整编辑</NAME>
+		<DESC>填充</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Resume Game</ENGLISH_NAME>
+		<NAME>继续游戏</NAME>
+		<DESC>填充</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Select Brush</ENGLISH_NAME>
+		<NAME>选择画笔</NAME>
+		<DESC>填充</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Place Object</ENGLISH_NAME>
+		<NAME>放置对象</NAME>
+		<DESC>选择放置对象.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Place Item</ENGLISH_NAME>
+		<NAME>放置项目</NAME>
+		<DESC>选择放置项目.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Set Status</ENGLISH_NAME>
+		<NAME>设定状态</NAME>
+		<DESC>设外交状态.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="3" tex_row="11" clip="0">
+		<ENGLISH_NAME>Increase Hit Points</ENGLISH_NAME>
+		<NAME>增加生命值</NAME>
+		<DESC>增加选定对象的生命值. SHIFT+点击 快速增加, ALT+点击 更高速增加, CTRL+点击 缓慢增加.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="11" clip="0">
+		<ENGLISH_NAME>Decrease Hit Points</ENGLISH_NAME>
+		<NAME>减少生命值</NAME>
+		<DESC>减少选定对象的生命值. SHIFT+点击 快速减少, ALT+点击 更高速减少, CTRL+点击 缓慢减少.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="8" clip="0">
+		<ENGLISH_NAME>Increase Craft</ENGLISH_NAME>
+		<NAME>提高建造量</NAME>
+		<DESC>提高选定对象的建造量. SHIFT+点击 快速提高, ALT+点击 更高速提高, CTRL+点击 缓慢提高.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="9" clip="0">
+		<ENGLISH_NAME>Decrease Craft</ENGLISH_NAME>
+		<NAME>减少建造量</NAME>
+		<DESC>减少选定对象的建造量. SHIFT+点击 快速降低, ALT+点击 更高速降低, CTRL+点击 缓慢降低.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="10" clip="0">
+		<ENGLISH_NAME>Activate Building</ENGLISH_NAME>
+		<NAME>激活建筑物</NAME>
+		<DESC>点击 "激活" 该建筑物将进入全速建造状态.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="11" clip="0">
+		<ENGLISH_NAME>Deactivate Building</ENGLISH_NAME>
+		<NAME>重置建筑物</NAME>
+		<DESC>重新放置该建筑物.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Delete</ENGLISH_NAME>
+		<NAME>删除</NAME>
+		<DESC>这是干什么?</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Generate Map</ENGLISH_NAME>
+		<NAME>生成地图</NAME>
+		<DESC>生成新地图.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Import Map Image</ENGLISH_NAME>
+		<NAME>导入地图</NAME>
+		<DESC>导入一幅地图.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Change Map Seed</ENGLISH_NAME>
+		<NAME>更改地图种子</NAME>
+		<DESC>更改地图种子.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Toggle Fog of War</ENGLISH_NAME>
+		<NAME>使用战争迷雾</NAME>
+		<DESC>使用战争迷雾显示.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="2" tex_row="11" clip="0">
+		<ENGLISH_NAME>Make Capital</ENGLISH_NAME>
+		<NAME>首都</NAME>
+		<DESC>让该城市成为此国家的首都.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Always Transport</ENGLISH_NAME>
+		<NAME>始终运送</NAME>
+		<DESC>填充</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Never Transport</ENGLISH_NAME>
+		<NAME>从不运送</NAME>
+		<DESC>填充</DESC>
+	</OPTION>
+	<OPTION tex_col="1" tex_row="1" clip="0">
+		<ENGLISH_NAME>Select Nation</ENGLISH_NAME>
+		<NAME>选择国家</NAME>
+		<DESC>选择该国家.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Nation Flip</ENGLISH_NAME>
+		<NAME>其他国家</NAME>
+		<DESC>点击显示其他国家.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Add Nation</ENGLISH_NAME>
+		<NAME>增加国家</NAME>
+		<DESC>增加新国家.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Terrain</ENGLISH_NAME>
+		<NAME>地形</NAME>
+		<DESC>点击修改地形.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Fertile</ENGLISH_NAME>
+		<NAME>肥沃</NAME>
+		<DESC>放置肥沃的地形.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Fertile 1</ENGLISH_NAME>
+		<NAME>肥沃土地 1</NAME>
+		<DESC>放置肥沃的地形 1.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Fertile 2</ENGLISH_NAME>
+		<NAME>肥沃土地 2</NAME>
+		<DESC>放置肥沃的地形 2.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Arid</ENGLISH_NAME>
+		<NAME>贫瘠土地</NAME>
+		<DESC>放置贫瘠的地形.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Ocean</ENGLISH_NAME>
+		<NAME>海洋</NAME>
+		<DESC>放置海洋</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Forest</ENGLISH_NAME>
+		<NAME>森林</NAME>
+		<DESC>选择此按钮, 在地图上点击放置森林</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Mountains</ENGLISH_NAME>
+		<NAME>山地</NAME>
+		<DESC>放置山地</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Cliffs</ENGLISH_NAME>
+		<NAME>悬崖</NAME>
+		<DESC>放置悬崖</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Rocks</ENGLISH_NAME>
+		<NAME>岩石</NAME>
+		<DESC>选择该按钮 点击地图放置岩石/石油. 在岩石或石油上点击, 在岩石和石油之间转换.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Oil</ENGLISH_NAME>
+		<NAME>石油</NAME>
+		<DESC>放置石油 (需在岩石区域)</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>River</ENGLISH_NAME>
+		<NAME>河流</NAME>
+		<DESC>放置河流</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Add Feature</ENGLISH_NAME>
+		<NAME>添加地形特征</NAME>
+		<DESC>增加 灌木/岩石</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>1x1 Brush</ENGLISH_NAME>
+		<NAME>1x1 画笔</NAME>
+		<DESC>点击选择 1x1 画笔</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>3x3 Brush</ENGLISH_NAME>
+		<NAME>3x3 画笔</NAME>
+		<DESC>点击选择 3x3 画笔</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>5x5 Brush</ENGLISH_NAME>
+		<NAME>5x5 画笔</NAME>
+		<DESC>点击选择 5x5 画笔</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>1x5 Brush</ENGLISH_NAME>
+		<NAME>1x5 画笔</NAME>
+		<DESC>点击选择 1x5 画笔</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>5x1 Brush</ENGLISH_NAME>
+		<NAME>5x1 画笔</NAME>
+		<DESC>点击选择 5x1 画笔</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>5x5 X Brush</ENGLISH_NAME>
+		<NAME>5x5 X 画笔</NAME>
+		<DESC>点击选择 5x5 X画笔</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Remove Terrain</ENGLISH_NAME>
+		<NAME>删除地形</NAME>
+		<DESC>删除一个地形特征 (山脉/森林/岩石)</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Remove Rare Resource</ENGLISH_NAME>
+		<NAME>删除稀缺资源</NAME>
+		<DESC>删除一个稀缺资源</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Remove All Rare Resources</ENGLISH_NAME>
+		<NAME>删除所有稀缺资源</NAME>
+		<DESC>删除所有稀缺资源</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Give Resource</ENGLISH_NAME>
+		<NAME>提供资源</NAME>
+		<DESC>提供该资源 $NUMBER0. CTRL+点击 为 100单位, SHIFT+点击 为 500单位, ALT+点击  为 10000单位, CTRL+SHIFT+点击 为 1单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Take Resource</ENGLISH_NAME>
+		<NAME>获得资源</NAME>
+		<DESC>获得该资源 $NUMBER0 .CTRL+点击 为 100单位, SHIFT+点击 为 500单位, ALT+点击  为 10000单位, CTRL+SHIFT+点击 为 1单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Give Resource</ENGLISH_NAME>
+		<NAME>提供资源</NAME>
+		<DESC>提供100单位该资源</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Take Resource</ENGLISH_NAME>
+		<NAME>获得资源</NAME>
+		<DESC>获得100单位该资源</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Default Resources</ENGLISH_NAME>
+		<NAME>默认资源</NAME>
+		<DESC>设置资源为默认值</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Give Each Resource</ENGLISH_NAME>
+		<NAME>提供每种资源</NAME>
+		<DESC>每种资源各提供 $NUMBER0 单位. CTRL+点击 为 100单位, SHIFT+点击 为 500单位, ALT+点击 为 10000单位, CTRL+SHIFT+点击 为 1单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Give Each Resource</ENGLISH_NAME>
+		<NAME>提供每种资源</NAME>
+		<DESC>每种资源各提供100单位</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Take Each Resource</ENGLISH_NAME>
+		<NAME>获得每种资源</NAME>
+		<DESC>每种资源各获得 $NUMBER0单位. CTRL+点击 为 100单位, SHIFT+点击 为 500单位, ALT+点击 为 10000单位, CTRL+SHIFT+点击 为 1单位.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Take Each Resource</ENGLISH_NAME>
+		<NAME>获得每种资源</NAME>
+		<DESC>每种资源各获得100单位</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Change Scen. Name</ENGLISH_NAME>
+		<NAME>更改剧情名称</NAME>
+		<DESC>更改剧情名称</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Use Scenario Script</ENGLISH_NAME>
+		<NAME>使用剧情脚本</NAME>
+		<DESC>载入地图时使用剧情脚本</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Set Camera Location</ENGLISH_NAME>
+		<NAME>设置视角位置</NAME>
+		<DESC>设置初始化剧情的本地摄像机. 当前摄像机的安置和缩放级别将成为剧情开始时玩家的初始视角.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Get Camera Location</ENGLISH_NAME>
+		<NAME>获取视角位置</NAME>
+		<DESC>立即初始化剧情的摄像机视角. 显示剧情开始时玩家将看到的视角.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="6" clip="0">
+		<ENGLISH_NAME>Rename</ENGLISH_NAME>
+		<NAME>重命名</NAME>
+		<DESC>更改城市名称.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Re-Init Terrain</ENGLISH_NAME>
+		<NAME>重新初始化地形</NAME>
+		<DESC>重新初始化地形</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Fill Land Types</ENGLISH_NAME>
+		<NAME>填充陆地类型</NAME>
+		<DESC>使用地形类型随机填充陆地区域.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Clear Land Types</ENGLISH_NAME>
+		<NAME>清楚陆地类型</NAME>
+		<DESC>从陆地区域清除地形类型</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Add Random Terrain</ENGLISH_NAME>
+		<NAME>添加随机地形</NAME>
+		<DESC>随机放置森林/山脉/岩石/油</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Clear All Terrain</ENGLISH_NAME>
+		<NAME>清除所有地形</NAME>
+		<DESC>删除所有的森林/山脉/岩石/油</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Add Random Features</ENGLISH_NAME>
+		<NAME>添加随机地形特征</NAME>
+		<DESC>随机添加灌木/岩石</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Remove One Feature</ENGLISH_NAME>
+		<NAME>删除某一特征</NAME>
+		<DESC>清除一灌木/岩石</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Clear All Features</ENGLISH_NAME>
+		<NAME>清除所有地形特征</NAME>
+		<DESC>清除所有的灌木/岩石</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Toggle Research Mode</ENGLISH_NAME>
+		<NAME>转换研究模式</NAME>
+		<DESC>转换研究模式</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Edit Terrain</ENGLISH_NAME>
+		<NAME>编辑地形</NAME>
+		<DESC>编辑 陆地/海洋/山脉/河流 </DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Adjust Height</ENGLISH_NAME>
+		<NAME>调整海拔</NAME>
+		<DESC>选该按钮左拖曳提高地形海拔.右拖曳降低地形海拔.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Height Increase</ENGLISH_NAME>
+		<NAME>增高海拔</NAME>
+		<DESC>点击增高陆地海拔</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Height Decrease</ENGLISH_NAME>
+		<NAME>降低海拔</NAME>
+		<DESC>点击降低陆地海拔</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Apply Changes</ENGLISH_NAME>
+		<NAME>应用更改</NAME>
+		<DESC>应用在此地图上所作的更改.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Cancel</ENGLISH_NAME>
+		<NAME>取消</NAME>
+		<DESC>取消更改</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Remove Feature</ENGLISH_NAME>
+		<NAME>删除地形特征</NAME>
+		<DESC>删除最后放置的山脉</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>1x1 Brush</ENGLISH_NAME>
+		<NAME>1x1 画笔</NAME>
+		<DESC>点击选择 1x1 画笔</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>3x3 Brush</ENGLISH_NAME>
+		<NAME>3x3 画笔</NAME>
+		<DESC>点击选择 3x3 画笔</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>5x5 Brush</ENGLISH_NAME>
+		<NAME>5x5 画笔</NAME>
+		<DESC>点击选择 5x5 画笔</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>1x5 Brush</ENGLISH_NAME>
+		<NAME>1x5 画笔</NAME>
+		<DESC>点击选择 1x5 画笔</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>5x1 Brush</ENGLISH_NAME>
+		<NAME>5x1 画笔</NAME>
+		<DESC>点击选择 5x1 画笔</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>5x5 X Brush</ENGLISH_NAME>
+		<NAME>5x5 X 画笔</NAME>
+		<DESC>点击选择 5x5 X 画笔</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME/>
+		<NAME/>
+		<DESC>大尺寸悬崖</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME/>
+		<NAME/>
+		<DESC>小尺寸悬崖</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>lt"</ENGLISH_NAME>
+		<NAME>lt"</NAME>
+		<DESC>上一个悬崖类型</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>gt"</ENGLISH_NAME>
+		<NAME>gt"</NAME>
+		<DESC>下一个悬崖类型</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Add point</ENGLISH_NAME>
+		<NAME>添加节点</NAME>
+		<DESC>添加河流节点</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Clear all</ENGLISH_NAME>
+		<NAME>全部清除</NAME>
+		<DESC>从地图上删除当前河流的全部节点</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Clear prev</ENGLISH_NAME>
+		<NAME>删除上一个</NAME>
+		<DESC>删除河流最后添加的节点</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Add river</ENGLISH_NAME>
+		<NAME>添加河流</NAME>
+		<DESC>在地图上添加河流</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Disable Production AI</ENGLISH_NAME>
+		<NAME>禁用建造AI</NAME>
+		<DESC>使用建造AI.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Disable Unit AI</ENGLISH_NAME>
+		<NAME>禁用单位AI</NAME>
+		<DESC>所有单位使用AI.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Disable Combat AI</ENGLISH_NAME>
+		<NAME>禁用战斗的AI</NAME>
+		<DESC>使用战斗AI.  军事单位依照他们的阵型作出相应攻击.</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="9" clip="0">
+		<ENGLISH_NAME>Disable AI</ENGLISH_NAME>
+		<NAME>禁止AI</NAME>
+		<DESC>该单位使用AI.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Toggle Resource Interface</ENGLISH_NAME>
+		<NAME>显示资源界面</NAME>
+		<DESC>显示资源界面.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Toggle Market Interface</ENGLISH_NAME>
+		<NAME>显示交易界面</NAME>
+		<DESC>显示交易界面.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Toggle Infrastructure Interface</ENGLISH_NAME>
+		<NAME>显示经济基础界面</NAME>
+		<DESC>显示经济基础界面.</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<ENGLISH_NAME>Toggle Main Interface</ENGLISH_NAME>
+		<NAME>显示主界面</NAME>
+		<DESC>显示主界面.</DESC>
+	</OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Toggle Mini-Library Interface</ENGLISH_NAME>
+    <NAME>显示微型图书馆界面</NAME>
+    <DESC>显示微型图书馆界面.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Next Merchant</ENGLISH_NAME>
+    <NAME>下个商人</NAME>
+    <DESC>点击换到下一个空闲商人。</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Next Fisherman</ENGLISH_NAME>
+    <NAME>下个渔民</NAME>
+    <DESC>点击换到下一个空闲渔民。</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>All Merchants</ENGLISH_NAME>
+    <NAME>所有商人</NAME>
+    <DESC>点击选取所有空闲商人。</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>All Fishermen</ENGLISH_NAME>
+    <NAME>所有渔民</NAME>
+    <DESC>点击选取所有空闲渔民。</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Select Merchant</ENGLISH_NAME>
+    <NAME>选择商人</NAME>
+    <DESC>点击选择下个空闲商人。</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Select Fisherman</ENGLISH_NAME>
+    <NAME>选择渔民</NAME>
+    <DESC>换到选择下个空闲渔民。</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Select Patriot</ENGLISH_NAME>
+    <NAME>选择爱国者</NAME>
+    <DESC>点击选择爱国者。</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Select Patriot, no zoom</ENGLISH_NAME>
+    <NAME>选择爱国者，不缩放</NAME>
+    <DESC>点击选择爱国者，不缩放。</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Select Damaged Units</ENGLISH_NAME>
+    <NAME>选择受损单位</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Filter Selection for Damaged Units</ENGLISH_NAME>
+    <NAME>受损单位的选择筛选器</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Filter Selection for Units on Screen</ENGLISH_NAME>
+    <NAME>画面单位的选择筛选器</NAME>
+    <DESC/>
+  </OPTION>
+</OPTIONS>

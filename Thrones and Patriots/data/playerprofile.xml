@@ -1,0 +1,2004 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- Edited by KK Games) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Pranas Pauliukonis (Big Huge Games) -->
+<!-- LOCALIZATION: STRING and SHORT_STRING-->
+<ROOT>
+	<KEYS>
+		<KEY enum="SYSTEM_TOGGLE_MP_STAT_WIN" dependent="0">
+			<STRING>切换 MP 状态窗口</STRING>
+			<SHORT_STRING>切换状态</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_BUILDING_ALPHABLEND" dependent="0">
+			<STRING>按字母顺序切换建筑</STRING>
+			<SHORT_STRING>建筑按字母顺序</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_SHOW_FRAME_STATS" dependent="0">
+			<STRING>显示帧数</STRING>
+			<SHORT_STRING>帧数状态</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_FPS_STATS" dependent="0">
+			<STRING>切换每秒帧数</STRING>
+			<SHORT_STRING>每秒帧数</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_SCREENSHOT" dependent="0">
+			<STRING>抓取屏幕</STRING>
+			<SHORT_STRING>抓取屏幕</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_NEW_LAND" dependent="0">
+			<STRING>切换新地面</STRING>
+			<SHORT_STRING>新地面</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_NEW_LAND_OVERLAYS" dependent="0">
+			<STRING>切换新地面表层</STRING>
+			<SHORT_STRING>新地面表层</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_WIREFRAME" dependent="0">
+			<STRING>切换线条外框图</STRING>
+			<SHORT_STRING>线条外框图</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_INCREASE_TERRAIN_DETAIL" dependent="0">
+			<STRING>增加地形细节</STRING>
+			<SHORT_STRING>增加地形细节</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_DECREASE_TERRAIN_DETAIL" dependent="0">
+			<STRING>减少地形细节</STRING>
+			<SHORT_STRING>减少地形细节</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_SAVE_GAME" dependent="0">
+			<STRING>保存游戏</STRING>
+			<SHORT_STRING>保存游戏</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_LOAD_GAME" dependent="0">
+			<STRING>载入游戏</STRING>
+			<SHORT_STRING>载入游戏</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_MP_LOG" dependent="0">
+			<STRING>切换 MP 日志</STRING>
+			<SHORT_STRING>MP 日志</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_PATH_SHOW_DEBUG" dependent="0">
+			<STRING>切换 显示路径</STRING>
+			<SHORT_STRING>显示路径</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_STEP_FRAME" dependent="0">
+			<STRING>停止帧数</STRING>
+			<SHORT_STRING>停止帧数</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_DEBUG_MESSAGES" dependent="0">
+			<STRING>切换调试信息</STRING>
+			<SHORT_STRING>调试信息</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SCENE_PATH" dependent="0">
+			<STRING>切换场景路径</STRING>
+			<SHORT_STRING>场景路径</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_DEBUG_JUMP_TO_ACTION" dependent="0">
+			<STRING>跳至调试功能</STRING>
+			<SHORT_STRING>跳至调试功能</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_DEBUG_JUMP_TO_WAYPOINT" dependent="0">
+			<STRING>跳至调试点</STRING>
+			<SHORT_STRING>跳至调试点</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_DISPLAY_PROFILE" dependent="0">
+			<STRING>显示策略文件</STRING>
+			<SHORT_STRING>显示策略文件</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_PROFILE_RUNNING" dependent="0">
+			<STRING>切换策略文件运行中</STRING>
+			<SHORT_STRING>策略文件运行中</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_PARAM_CONSOLE" dependent="0">
+			<STRING>切换参数主控台</STRING>
+			<SHORT_STRING>参数主控台</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_GRAPHIC_CONSOLE" dependent="0">
+			<STRING>切换图形主控台</STRING>
+			<SHORT_STRING>图形主控台</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_GAME_CONSOLE" dependent="0">
+			<STRING>切换游戏主控台</STRING>
+			<SHORT_STRING>游戏主控台</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SCENARIO_EDITOR" dependent="0">
+			<STRING>切换剧情编辑器</STRING>
+			<SHORT_STRING>剧情编辑器</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_ACHIEVEMENTS" dependent="0">
+			<STRING>切换成就画面</STRING>
+			<SHORT_STRING>成就</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SCENE_DEBUG" dependent="0">
+			<STRING>切换场景调试</STRING>
+			<SHORT_STRING>场景调试</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SEE_ALL" dependent="0">
+			<STRING>切换全部可见</STRING>
+			<SHORT_STRING>全部可见</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SCENE_RIVERS" dependent="0">
+			<STRING>切换河流场景</STRING>
+			<SHORT_STRING>河流场景</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SCENE_HOT" dependent="0">
+			<STRING>切换重要场景</STRING>
+			<SHORT_STRING>重要场景</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SCENE_BLOCKED" dependent="0">
+			<STRING>切换阻塞场景</STRING>
+			<SHORT_STRING>阻塞场景</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SCENE_ROADS" dependent="0">
+			<STRING>切换场景道路</STRING>
+			<SHORT_STRING>场景道路</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SCENE_WET" dependent="0">
+			<STRING>切换场景湿度</STRING>
+			<SHORT_STRING>场景湿度</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SCENE_FRACTAL" dependent="0">
+			<STRING>切换场景碎片</STRING>
+			<SHORT_STRING>场景碎片</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SCENE_ALL" dependent="0">
+			<STRING>切换所有场景</STRING>
+			<SHORT_STRING>所有场景</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_START_NUKE_FLASH" dependent="0">
+			<STRING>开始核武器闪光</STRING>
+			<SHORT_STRING>核武器闪光</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SCENE_SITES" dependent="0">
+			<STRING>切换场景位置</STRING>
+			<SHORT_STRING>场景位置</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SCENE_ARMIES" dependent="0">
+			<STRING>切换场景军队</STRING>
+			<SHORT_STRING>场景军队</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_Z_VALUES" dependent="0">
+			<STRING>切换 Z 值</STRING>
+			<SHORT_STRING>Z 值</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_CHEAT_ZERO_TECHS" dependent="0">
+			<STRING>作弊 无科技</STRING>
+			<SHORT_STRING>作弊 无科技</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_CHEAT_GIVE_TECHS" dependent="0">
+			<STRING>作弊 获得科技</STRING>
+			<SHORT_STRING>获得科技</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_REDRAW_WORLDMAP_BACKGROUND" dependent="0">
+			<STRING>重新绘制世界地图</STRING>
+			<SHORT_STRING>重新绘制世界地图</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_INCREASE_NET_RATIO" dependent="0">
+			<STRING>增加网格比率</STRING>
+			<SHORT_STRING>增加网格比率</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_INCREASE_AI_SPEED" dependent="0">
+			<STRING>增加 AI 速度</STRING>
+			<SHORT_STRING>增加 AI 速度</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_DECREASE_NET_RATIO" dependent="0">
+			<STRING>减少网格比率</STRING>
+			<SHORT_STRING>减少网格比率</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_DECREASE_AI_SPEED" dependent="0">
+			<STRING>减少 AI 速度</STRING>
+			<SHORT_STRING>减少 AI 速度</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_AI" dependent="0">
+			<STRING>切换 AI</STRING>
+			<SHORT_STRING>AI</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_WATCH_AI" dependent="0">
+			<STRING>观看 AI 建造优先级</STRING>
+			<SHORT_STRING>AI 建造</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_CLEAR_PROFILE" dependent="0">
+			<STRING>清除策略文件</STRING>
+			<SHORT_STRING>清除策略文件</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_DUMP_PROFILE" dependent="0">
+			<STRING>删除策略文件</STRING>
+			<SHORT_STRING>删除策略文件</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_DUMP_MEM_PROFILE" dependent="0">
+			<STRING>删除内存策略文件</STRING>
+			<SHORT_STRING>删除内存策略文件</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_QUIT" dependent="0">
+			<STRING>退出</STRING>
+			<SHORT_STRING>退出</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_BUILD_NEW_WORLD" dependent="0">
+			<STRING>建造新世界</STRING>
+			<SHORT_STRING>建造新世界</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SCENE_REGIONS" dependent="0">
+			<STRING>切换场景区域</STRING>
+			<SHORT_STRING>场景区域</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_ZERO_RESOURCES" dependent="0">
+			<STRING>无资源</STRING>
+			<SHORT_STRING>无资源</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_INCREASE_RESOURCES" dependent="0">
+			<STRING>增加资源</STRING>
+			<SHORT_STRING>增加资源</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_SWITCH_POINT_OF_VIEW" dependent="0">
+			<STRING>转换视点</STRING>
+			<SHORT_STRING>视点</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_INCREASE_POP" dependent="0">
+			<STRING>增加人口</STRING>
+			<SHORT_STRING>增加人口</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_DECREASE_POP" dependent="0">
+			<STRING>减少人口</STRING>
+			<SHORT_STRING>减少人口</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_PLACE_NEW_BUILD" dependent="0">
+			<STRING>放置新建筑</STRING>
+			<SHORT_STRING>新建筑</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_PLACE_NEW_UNIT" dependent="0">
+			<STRING>放置新单位</STRING>
+			<SHORT_STRING>新单位</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_HURRY_ACTION" dependent="0">
+			<STRING>加速行动</STRING>
+			<SHORT_STRING>加速行动</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_DAMAGE_OBJECT" dependent="0">
+			<STRING>损害对象</STRING>
+			<SHORT_STRING>损害对象</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_DAMAGE_OBJECT_REALLY" dependent="0">
+			<STRING>对象实际损害</STRING>
+			<SHORT_STRING>对象实际损害</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_THOUGHT_BUBBLES" dependent="0">
+			<STRING>切换气泡</STRING>
+			<SHORT_STRING>气泡</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_KEYMAP_WINDOW" dependent="0">
+			<STRING>切换主地图窗口</STRING>
+			<SHORT_STRING>主地图窗口</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SCORE_DETAIL" dependent="0">
+			<STRING>切换得分细节</STRING>
+			<SHORT_STRING>得分细节</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_DEPTH_COMPLEXITY" dependent="0">
+			<STRING>切换深度复杂度</STRING>
+			<SHORT_STRING>深度复杂度</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_END_SCENARIO_TEST" dependent="0">
+			<STRING>结束剧情测试</STRING>
+			<SHORT_STRING>结束剧情测试</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_SCRIPT_EDITOR" dependent="0">
+			<STRING>脚本编辑器</STRING>
+			<SHORT_STRING>脚本编辑器</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_DEBUG_CONSOLE" dependent="0">
+			<STRING>切换调试主控台</STRING>
+			<SHORT_STRING>调试主控台</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_DEBUG_CONSOLE_2" dependent="0">
+			<STRING>切换调试主控台</STRING>
+			<SHORT_STRING>调试主控台</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_DEBUG_CONSOLE_3" dependent="0">
+			<STRING>切换调试主控台</STRING>
+			<SHORT_STRING>调试主控台</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_STORMS" dependent="0">
+			<STRING>切换 雨/雪 风暴</STRING>
+			<SHORT_STRING>切换风暴</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_NEXT_PRIM" dependent="0">
+			<STRING>SYSTEM_NEXT_PRIM</STRING>
+			<SHORT_STRING>SYSTEM_NEXT_PRIM</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_PREV_PRIM" dependent="0">
+			<STRING>SYSTEM_PREV_PRIM</STRING>
+			<SHORT_STRING>SYSTEM_PREV_PRIM</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_NORM_RENDER" dependent="0">
+			<STRING>SYSTEM_NORM_RENDER</STRING>
+			<SHORT_STRING>SYSTEM_NORM_RENDER</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_NEXT" dependent="0">
+			<STRING>下一建筑屏幕</STRING>
+			<SHORT_STRING>下一建筑屏幕</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BACK" dependent="0">
+			<STRING>前一建筑屏幕</STRING>
+			<SHORT_STRING>前一建筑屏幕</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_VILLAGE_PEASANT" dependent="0">
+			<STRING>城市: 建造市民</STRING>
+			<SHORT_STRING>城市市民</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_VILLAGE_PEASANT_UPGRADE" dependent="1">
+			<STRING>城市: 升级市民</STRING>
+			<SHORT_STRING>升级市民</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_VILLAGE_RAZE" dependent="0">
+			<STRING>城市: 拆毁</STRING>
+			<SHORT_STRING>拆毁</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_VILLAGE_ALL_CLEAR" dependent="0">
+			<STRING>城市: 警报解除</STRING>
+			<SHORT_STRING>警报解除</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_VILLAGE_ALARM" dependent="0">
+			<STRING>城市: 警报</STRING>
+			<SHORT_STRING>警报</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_UPGRADE_KNOWLEDGE" dependent="0">
+			<STRING>大学: 升级知识生产</STRING>
+			<SHORT_STRING>升级知识生产</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_UNIVERSITY_SCHOLAR" dependent="0">
+			<STRING>大学: 建造学者</STRING>
+			<SHORT_STRING>学者</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ARMORY_LIGHT" dependent="0">
+			<STRING>兵营: 建造轻步兵</STRING>
+			<SHORT_STRING>轻步兵</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ARMORY_LIGHT_UPGRADE" dependent="1">
+			<STRING>兵营: 升级轻步兵</STRING>
+			<SHORT_STRING>升级轻步兵</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ARMORY_HEAVY" dependent="0">
+			<STRING>兵营: 建造重步兵</STRING>
+			<SHORT_STRING>重步兵</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ARMORY_HEAVY_UPGRADE" dependent="1">
+			<STRING>兵营: 升级重步兵</STRING>
+			<SHORT_STRING>升级重步兵</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ARMORY_ARCHER" dependent="0">
+			<STRING>兵营: 建造弓箭手</STRING>
+			<SHORT_STRING>弓箭手</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ARMORY_ARCHER_UPGRADE" dependent="1">
+			<STRING>兵营: 升级弓箭手</STRING>
+			<SHORT_STRING>升级弓箭手</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ARMORY_SPECIAL" dependent="0">
+			<STRING>兵营: 建造侦察员</STRING>
+			<SHORT_STRING>侦察员</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ARMORY_SPECIAL_UPGRADE" dependent="1">
+			<STRING>兵营: 升级侦察员</STRING>
+			<SHORT_STRING>升级侦察员</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STABLE_LIGHT" dependent="0">
+			<STRING>马厩: 建造轻骑兵</STRING>
+			<SHORT_STRING>轻骑兵</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STABLE_LIGHT_UPGRADE" dependent="1">
+			<STRING>马厩: 升级轻骑兵</STRING>
+			<SHORT_STRING>升级轻骑兵</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STABLE_HEAVY" dependent="0">
+			<STRING>马厩: 建造重骑兵</STRING>
+			<SHORT_STRING>重骑兵</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STABLE_HEAVY_UPGRADE" dependent="1">
+			<STRING>马厩: 升级重骑兵</STRING>
+			<SHORT_STRING>升级重骑兵</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STABLE_ARCHER" dependent="0">
+			<STRING>马厩: 建造骑射手</STRING>
+			<SHORT_STRING>骑射手</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STABLE_ARCHER_UPGRADE" dependent="1">
+			<STRING>马厩: 升级骑射手</STRING>
+			<SHORT_STRING>升级骑射手</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STABLE_ELEPHANT" dependent="0">
+			<STRING>马厩: 建造战象</STRING>
+			<SHORT_STRING>战象</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STABLE_ELEPHANT_UPGRADE" dependent="1">
+			<STRING>马厩: 升级战象</STRING>
+			<SHORT_STRING>升级战象</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SIEGEFACTORY_SIEGE" dependent="0">
+			<STRING>攻城武器厂: 建造攻城器/炮</STRING>
+			<SHORT_STRING>攻城器/炮</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SIEGEFACTORY_SIEGE_UPGRADE" dependent="1">
+			<STRING>攻城武器厂: 升级攻城器/炮</STRING>
+			<SHORT_STRING>升级攻城器/炮</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SIEGEFACTORY_GATLING" dependent="0">
+			<STRING>兵营: 建造机枪</STRING>
+			<SHORT_STRING>机枪</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SIEGEFACTORY_GATLING_UPGRADE" dependent="1">
+			<STRING>兵营: 升级机枪</STRING>
+			<SHORT_STRING>升级机枪</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SIEGEFACTORY_WAGON" dependent="0">
+			<STRING>攻城武器厂: 建造补给车</STRING>
+			<SHORT_STRING>补给车</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DOCK_SIEGE" dependent="0">
+			<STRING>码头: 建造炮舰</STRING>
+			<SHORT_STRING>攻城炮舰</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DOCK_SIEGE_UPGRADE" dependent="1">
+			<STRING>码头: 升级炮舰</STRING>
+			<SHORT_STRING>升级炮舰</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DOCK_STANDARD" dependent="0">
+			<STRING>码头: 建造重型船只</STRING>
+			<SHORT_STRING>重型船只单位</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DOCK_STANDARD_UPGRADE" dependent="1">
+			<STRING>码头: 升级重型船只</STRING>
+			<SHORT_STRING>升级重型船只</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DOCK_FIRESHIP" dependent="0">
+			<STRING>码头: 建造纵火船/潜艇</STRING>
+			<SHORT_STRING>纵火船/潜艇</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DOCK_FIRESHIP_UPGRADE" dependent="1">
+			<STRING>码头: 升级纵火船/潜艇</STRING>
+			<SHORT_STRING>升级纵火船/潜艇</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DOCK_SCOUT" dependent="0">
+			<STRING>码头: 建造轻型船只</STRING>
+			<SHORT_STRING>轻型船只</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DOCK_SCOUT_UPGRADE" dependent="1">
+			<STRING>码头: 升级轻型船只</STRING>
+			<SHORT_STRING>升级轻型船只</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DOCK_CARRIER" dependent="0">
+			<STRING>码头: 建造航空母舰</STRING>
+			<SHORT_STRING>航空母舰</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DOCK_CARRIER_UPGRADE" dependent="1">
+			<STRING>码头: 升级航空母舰</STRING>
+			<SHORT_STRING>升级航空母舰</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DOCK_FISHERMEN" dependent="0">
+			<STRING>码头: 建造渔船</STRING>
+			<SHORT_STRING>渔船</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DOCK_FISHERMEN_UPGRADE" dependent="1">
+			<STRING>码头: 升级渔船</STRING>
+			<SHORT_STRING>升级渔船</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DOCK_CRUISER" dependent="0">
+			<STRING>码头: 建造巡洋舰</STRING>
+			<SHORT_STRING>巡洋舰</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DOCK_CRUISER_UPGRADE" dependent="1">
+			<STRING>码头: 升级巡洋舰</STRING>
+			<SHORT_STRING>升级巡洋舰</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_AIRBASE_FIGHTER" dependent="0">
+			<STRING>空军基地: 建造战斗机</STRING>
+			<SHORT_STRING>战斗机</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_AIRBASE_FIGHTER_UPGRADE" dependent="1">
+			<STRING>空军基地: 升级战斗机</STRING>
+			<SHORT_STRING>升级战斗机</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_AIRBASE_BOMBER" dependent="0">
+			<STRING>空军基地: 建造轰炸机</STRING>
+			<SHORT_STRING>轰炸机</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_AIRBASE_BOMBER_UPGRADE" dependent="1">
+			<STRING>空军基地: 升级轰炸机</STRING>
+			<SHORT_STRING>升级轰炸机</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_AIRBASE_HELICOPTER" dependent="0">
+			<STRING>空军基地: 建造直升机</STRING>
+			<SHORT_STRING>直升机</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_AIRBASE_HELICOPTER_UPGRADE" dependent="1">
+			<STRING>空军基地: 升级直升机</STRING>
+			<SHORT_STRING>升级直升机</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SILO_NUKE" dependent="0">
+			<STRING>导弹发射井: 建造核导弹</STRING>
+			<SHORT_STRING>核导弹</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SILO_NUKE_UPGRADE" dependent="1">
+			<STRING>导弹发射井: 升级核导弹</STRING>
+			<SHORT_STRING>升级核导弹</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SILO_ROCKET" dependent="0">
+			<STRING>导弹发射井: 建造火箭/巡航导弹</STRING>
+			<SHORT_STRING>火箭/巡航导弹</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SILO_ROCKET_UPGRADE" dependent="1">
+			<STRING>导弹发射井: 升级火箭/巡航导弹</STRING>
+			<SHORT_STRING>升级火箭/巡航导弹</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_UPGRADE_FOOD" dependent="0">
+			<STRING>粮仓: 升级食物产量</STRING>
+			<SHORT_STRING>升级食物产量</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_UPGRADE_TIMBER" dependent="0">
+			<STRING>木材厂: 升级木材产量</STRING>
+			<SHORT_STRING>升级木材产量</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_UPGRADE_METAL" dependent="0">
+			<STRING>冶炼厂: 升级金属产量</STRING>
+			<SHORT_STRING>升级金属产量</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_UPGRADE_FORT" dependent="0">
+			<STRING>堡垒: 升级</STRING>
+			<SHORT_STRING>升级堡垒</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_GORADAR" dependent="0">
+			<STRING>观察哨: 升级到高射炮阵地</STRING>
+			<SHORT_STRING>升级到高射炮阵地</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_UPGRADE_TEMPLE" dependent="0">
+			<STRING>寺庙: 升级宗教</STRING>
+			<SHORT_STRING>升级宗教</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_FORT_GENERAL" dependent="0">
+			<STRING>据点: 建造将军</STRING>
+			<SHORT_STRING>建造将军</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_FORT_GENERAL_UPGRADE" dependent="1">
+			<STRING>据点: 升级将军</STRING>
+			<SHORT_STRING>升级将军</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_FORT_SPY" dependent="0">
+			<STRING>据点: 建造间谍</STRING>
+			<SHORT_STRING>建造间谍</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_FORT_SPY_UPGRADE" dependent="1">
+			<STRING>据点: 升级间谍</STRING>
+			<SHORT_STRING>升级间谍</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOWER_MILITIA_UPGRADE" dependent="0">
+			<STRING>塔楼: 升级民兵</STRING>
+			<SHORT_STRING>民兵升级</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOWER_ALLEGIANCE" dependent="0">
+			<STRING>塔楼: 升级忠诚</STRING>
+			<SHORT_STRING>忠诚</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_MARKET_CARAVAN" dependent="0">
+			<STRING>市场: 建造商队</STRING>
+			<SHORT_STRING>商队</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_MARKET_UPGRADE_CARAVAN" dependent="1">
+			<STRING>市场: 升级商队</STRING>
+			<SHORT_STRING>升级商队</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_MARKET_MERCHANT" dependent="0">
+			<STRING>市场: 建造商人</STRING>
+			<SHORT_STRING>商人</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_MARKET_UPGRADE_MERCHANT" dependent="1">
+			<STRING>市场: 升级商人</STRING>
+			<SHORT_STRING>升级商人</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUY_FOOD" dependent="0">
+			<STRING>市场: 购买 100 食物</STRING>
+			<SHORT_STRING>购买食物</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUY_TIMBER" dependent="0">
+			<STRING>市场: 购买 100 木材</STRING>
+			<SHORT_STRING>购买木材</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUY_METAL" dependent="0">
+			<STRING>市场: 购买 100 金属</STRING>
+			<SHORT_STRING>购买金属</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUY_OIL" dependent="0">
+			<STRING>市场: 购买 100 石油</STRING>
+			<SHORT_STRING>购买石油</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUY_FOOD_500" dependent="0">
+			<STRING>市场: 购买 500 食物</STRING>
+			<SHORT_STRING>购买 500 食物</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUY_TIMBER_500" dependent="0">
+			<STRING>市场: 购买 500 木材</STRING>
+			<SHORT_STRING>购买 500 木材</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUY_METAL_500" dependent="0">
+			<STRING>市场: 购买 500 金属</STRING>
+			<SHORT_STRING>购买 500 金属</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUY_OIL_500" dependent="0">
+			<STRING>市场: 购买 500 石油</STRING>
+			<SHORT_STRING>购买 500 石油</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUY_FOOD_ALL" dependent="0">
+			<STRING>市场: 购买最大量食物</STRING>
+			<SHORT_STRING>购买最大量食物</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUY_TIMBER_ALL" dependent="0">
+			<STRING>市场: 购买最大量木材</STRING>
+			<SHORT_STRING>购买最大量木材</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUY_METAL_ALL" dependent="0">
+			<STRING>市场: 购买最大量金属</STRING>
+			<SHORT_STRING>购买最大量金属</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUY_OIL_ALL" dependent="0">
+			<STRING>市场: 购买最大量石油</STRING>
+			<SHORT_STRING>购买最大量石油</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SELL_FOOD" dependent="1">
+			<STRING>市场: 出售 100 食物</STRING>
+			<SHORT_STRING>出售 100 食物</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SELL_TIMBER" dependent="1">
+			<STRING>市场: 出售 100 木材</STRING>
+			<SHORT_STRING>出售 100 木材</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SELL_METAL" dependent="1">
+			<STRING>市场: 出售 100 金属</STRING>
+			<SHORT_STRING>出售 100 金属</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SELL_OIL" dependent="1">
+			<STRING>市场: 出售 100 石油</STRING>
+			<SHORT_STRING>出售 100 石油</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SELL_FOOD_500" dependent="0">
+			<STRING>市场: 出售 500 食物</STRING>
+			<SHORT_STRING>出售 500 食物</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SELL_TIMBER_500" dependent="0">
+			<STRING>市场: 出售 500 木材</STRING>
+			<SHORT_STRING>出售 500 木材</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SELL_METAL_500" dependent="0">
+			<STRING>市场: 出售 500 金属</STRING>
+			<SHORT_STRING>出售 500 金属</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SELL_OIL_500" dependent="0">
+			<STRING>市场: 出售 500 石油</STRING>
+			<SHORT_STRING>出售 500 石油</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SELL_FOOD_ALL" dependent="0">
+			<STRING>市场: 出售所有食物</STRING>
+			<SHORT_STRING>出售所有食物</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SELL_TIMBER_ALL" dependent="0">
+			<STRING>市场: 出售所有木材</STRING>
+			<SHORT_STRING>出售所有木材</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SELL_METAL_ALL" dependent="0">
+			<STRING>市场: 出售所有金属</STRING>
+			<SHORT_STRING>出售所有金属</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SELL_OIL_ALL" dependent="0">
+			<STRING>市场: 出售所有石油</STRING>
+			<SHORT_STRING>出售所有石油</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_LIBRARY_AGE" dependent="0">
+			<STRING>图书馆: 研究时代进步</STRING>
+			<SHORT_STRING>时代进步</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_LIBRARY_MILITARY" dependent="0">
+			<STRING>图书馆: 研究军事</STRING>
+			<SHORT_STRING>研究军事</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_LIBRARY_SCIENCE" dependent="0">
+			<STRING>图书馆: 研究科学</STRING>
+			<SHORT_STRING>研究科学</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_LIBRARY_COMMERCE" dependent="0">
+			<STRING>图书馆: 研究商业</STRING>
+			<SHORT_STRING>研究商业</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_LIBRARY_CIVIC" dependent="0">
+			<STRING>图书馆: 研究市政</STRING>
+			<SHORT_STRING>研究市政</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SPY_BRIBE" dependent="0">
+			<STRING>间谍: 策反敌人</STRING>
+			<SHORT_STRING>策反敌人</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SPY_PILFER_FUNDS" dependent="0">
+			<STRING>间谍: 偷窃资源</STRING>
+			<SHORT_STRING>偷窃资源</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_GENERAL_RALLY" dependent="0">
+			<STRING>将军: 集结</STRING>
+			<SHORT_STRING>集结</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_GENERAL_FORCED_MARCH" dependent="0">
+			<STRING>将军: 急行军</STRING>
+			<SHORT_STRING>急行军</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_GENERAL_AMBUSH" dependent="0">
+			<STRING>将军: 伏击</STRING>
+			<SHORT_STRING>伏击</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_GENERAL_DECOY" dependent="0">
+			<STRING>将军: 诱敌</STRING>
+			<SHORT_STRING>诱敌</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_GENERAL_ENTRENCH" dependent="0">
+			<STRING>将军: 挖掘战壕</STRING>
+			<SHORT_STRING>挖掘战壕</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SPECIAL_FORCES_SABOTAGE" dependent="0">
+			<STRING>特种部队: 破坏</STRING>
+			<SHORT_STRING>破坏</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SPECIAL_FORCES_PARADROP" dependent="0">
+			<STRING>特种部队: 空投</STRING>
+			<SHORT_STRING>空投</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SPY_INFORMER" dependent="0">
+			<STRING>间谍: 密探</STRING>
+			<SHORT_STRING>密探</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SPECIAL_FORCES_COUNTERINTEL" dependent="0">
+			<STRING>侦察员: 反间谍</STRING>
+			<SHORT_STRING>侦察员: 反间谍</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SPECIAL_FORCES_SNIPER" dependent="0">
+			<STRING>特种部队: 狙击</STRING>
+			<SHORT_STRING>狙击</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SPECIAL_FORCES_JAM_RADAR" dependent="0">
+			<STRING>特种部队: 干扰雷达</STRING>
+			<SHORT_STRING>干扰雷达</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD" dependent="0">
+			<STRING>市民: 建造建筑</STRING>
+			<SHORT_STRING>建造建筑</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_MILITARY" dependent="0">
+			<STRING>市民: 建造军事建筑</STRING>
+			<SHORT_STRING>建造军事建筑</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_WONDER" dependent="0">
+			<STRING>市民: 建造奇迹</STRING>
+			<SHORT_STRING>建造奇迹</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_MILITARY2" dependent="0">
+			<STRING>市民: 建造军事建筑 (2)</STRING>
+			<SHORT_STRING>建造军事建筑 (2)</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_WONDER2" dependent="0">
+			<STRING>市民: 建造奇迹 (2) </STRING>
+			<SHORT_STRING>建造奇迹 (2)</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD" dependent="0">
+			<STRING>市民: 建造建筑</STRING>
+			<SHORT_STRING>建造建筑</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_MILITARY" dependent="0">
+			<STRING>市民: 建造军事建筑</STRING>
+			<SHORT_STRING>建造军事建筑</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_WONDER" dependent="0">
+			<STRING>市民: 建造奇迹</STRING>
+			<SHORT_STRING>建造奇迹</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_PEASANT_TO_ARMS" dependent="0">
+			<STRING>市民: 武装</STRING>
+			<SHORT_STRING>武装</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_MILITIA_CIVILIAN" dependent="0">
+			<STRING>民兵: 转为市民</STRING>
+			<SHORT_STRING>民兵转为市民</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_AIRDEFENSE" dependent="0">
+			<STRING>建造防空工事</STRING>
+			<SHORT_STRING>防空工事</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_FARM" dependent="0">
+			<STRING>建造农场</STRING>
+			<SHORT_STRING>农场</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_GRANARY" dependent="0">
+			<STRING>建造粮仓</STRING>
+			<SHORT_STRING>粮仓</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_MINE" dependent="0">
+			<STRING>建造采矿场</STRING>
+			<SHORT_STRING>采矿场</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_SMELTER" dependent="0">
+			<STRING>建造冶炼厂</STRING>
+			<SHORT_STRING>冶炼厂</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_UNIVERSITY" dependent="0">
+			<STRING>建造大学</STRING>
+			<SHORT_STRING>大学</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_WOODCUTTER" dependent="0">
+			<STRING>建造伐木场</STRING>
+			<SHORT_STRING>伐木场</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_SAWMILL" dependent="0">
+			<STRING>建造木材厂</STRING>
+			<SHORT_STRING>木材厂</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_OILWELL" dependent="0">
+			<STRING>建造油井</STRING>
+			<SHORT_STRING>油井</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_REFINERY" dependent="0">
+			<STRING>建造炼油厂</STRING>
+			<SHORT_STRING>炼油厂</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_MARKET" dependent="0">
+			<STRING>建造市场</STRING>
+			<SHORT_STRING>市场</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_BARRACKS" dependent="0">
+			<STRING>建造兵营</STRING>
+			<SHORT_STRING>兵营</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_STABLE" dependent="0">
+			<STRING>建造马厩</STRING>
+			<SHORT_STRING>马厩</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_SIEGEFACTORY" dependent="0">
+			<STRING>建造攻城武器厂</STRING>
+			<SHORT_STRING>攻城武器厂</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_VILLAGE" dependent="0">
+			<STRING>建造城市</STRING>
+			<SHORT_STRING>城市</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_VILLAGE2" dependent="0">
+			<STRING>建造城市 (2)</STRING>
+			<SHORT_STRING>建造城市 (2)</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_TEMPLE" dependent="0">
+			<STRING>建造寺庙</STRING>
+			<SHORT_STRING>寺庙</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_LIBRARY" dependent="0">
+			<STRING>建造图书馆</STRING>
+			<SHORT_STRING>图书馆</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_FORT" dependent="0">
+			<STRING>建造据点/城堡/堡垒/要塞</STRING>
+			<SHORT_STRING>堡垒</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_TOWER" dependent="0">
+			<STRING>建造警戒塔/高级警戒塔/防御塔/碉堡</STRING>
+			<SHORT_STRING>塔楼</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_AIRBASE" dependent="0">
+			<STRING>建造空军基地</STRING>
+			<SHORT_STRING>空军基地</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_DOCK" dependent="0">
+			<STRING>建造码头</STRING>
+			<SHORT_STRING>码头</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_SILO" dependent="0">
+			<STRING>建造导弹发射井</STRING>
+			<SHORT_STRING>导弹发射井</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_LOOKOUT" dependent="0">
+			<STRING>建造了望哨</STRING>
+			<SHORT_STRING>了望哨</SHORT_STRING>
+		</KEY>
+		<KEY enum="FORM_LINE" dependent="0">
+			<STRING>单位: 长蛇阵</STRING>
+			<SHORT_STRING>长蛇</SHORT_STRING>
+		</KEY>
+		<KEY enum="FORM_REFUSED" dependent="0">
+			<STRING>单位: 锋矢阵</STRING>
+			<SHORT_STRING>锋矢</SHORT_STRING>
+		</KEY>
+		<KEY enum="FORM_ENVELOP" dependent="0">
+			<STRING>单位: 雁形阵</STRING>
+			<SHORT_STRING>雁形</SHORT_STRING>
+		</KEY>
+		<KEY enum="FORM_E_RIGHT" dependent="0">
+			<STRING>单位: 右锋阵</STRING>
+			<SHORT_STRING>右锋</SHORT_STRING>
+		</KEY>
+		<KEY enum="FORM_E_LEFT" dependent="0">
+			<STRING>单位: 左锋阵</STRING>
+			<SHORT_STRING>左锋</SHORT_STRING>
+		</KEY>
+		<KEY enum="STANCE_AGGRESSIVE" dependent="0">
+			<STRING>单位: 进攻状态</STRING>
+			<SHORT_STRING>进攻状态</SHORT_STRING>
+		</KEY>
+		<KEY enum="STANCE_RAID" dependent="0">
+			<STRING>单位: 奇袭状态</STRING>
+			<SHORT_STRING>奇袭状态</SHORT_STRING>
+		</KEY>
+		<KEY enum="STANCE_RAZE" dependent="0">
+			<STRING>单位: 拆毁状态</STRING>
+			<SHORT_STRING>拆毁状态</SHORT_STRING>
+		</KEY>
+		<KEY enum="STANCE_HOLDFIRE" dependent="0">
+			<STRING>单位: 原地待命状态</STRING>
+			<SHORT_STRING>原地待命状态</SHORT_STRING>
+		</KEY>
+		<KEY enum="STANCE_DEFENSIVE" dependent="0">
+			<STRING>单位: 防御状态</STRING>
+			<SHORT_STRING>防御状态</SHORT_STRING>
+		</KEY>
+		<KEY enum="STANCE_STANDGROUND" dependent="0">
+			<STRING>单位: 原地战斗状态</STRING>
+			<SHORT_STRING>原地战斗状态</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CANCEL" dependent="0">
+			<STRING>取消行动</STRING>
+			<SHORT_STRING>取消</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CHAT" dependent="0">
+			<STRING>聊天</STRING>
+			<SHORT_STRING>聊天</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CHAT_ALL" dependent="0">
+			<STRING>和所有人聊天</STRING>
+			<SHORT_STRING>和所有人聊天</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CHAT_ALLIES" dependent="0">
+			<STRING>和盟友聊天</STRING>
+			<SHORT_STRING>和盟友聊天</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CHAT_ENEMIES" dependent="0">
+			<STRING>与敌人聊天</STRING>
+			<SHORT_STRING>与敌人聊天</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DIPLO" dependent="0">
+			<STRING>外交</STRING>
+			<SHORT_STRING>外交</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DIRECT_DIPLO" dependent="0">
+			<STRING>外交: 转至供给</STRING>
+			<SHORT_STRING>转至供给</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SLOWER" dependent="0">
+			<STRING>减慢游戏速度</STRING>
+			<SHORT_STRING>更慢</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SLOWER2" dependent="0">
+			<STRING>减慢游戏速度 (2)</STRING>
+			<SHORT_STRING>更慢</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_FASTER" dependent="0">
+			<STRING>加快游戏速度</STRING>
+			<SHORT_STRING>更快</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_FASTER2" dependent="0">
+			<STRING>加快游戏速度 (2)</STRING>
+			<SHORT_STRING>更快</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_RESIGN" dependent="0">
+			<STRING>放弃</STRING>
+			<SHORT_STRING>放弃</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_QUIT" dependent="0">
+			<STRING>退出</STRING>
+			<SHORT_STRING>退出</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_GARRISON" dependent="0">
+			<STRING>单位: 驻守</STRING>
+			<SHORT_STRING>驻守</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_VILLAGE" dependent="0">
+			<STRING>查找城市</STRING>
+			<SHORT_STRING>查找城市</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_LIBRARY" dependent="0">
+			<STRING>查找图书馆</STRING>
+			<SHORT_STRING>查找图书馆</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_MARKET" dependent="0">
+			<STRING>查找市场</STRING>
+			<SHORT_STRING>查找市场</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_BARRACKS" dependent="0">
+			<STRING>查找兵营</STRING>
+			<SHORT_STRING>查找兵营</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_STABLE" dependent="0">
+			<STRING>查找马厩或车辆制造厂</STRING>
+			<SHORT_STRING>查找马厩或车辆制造厂</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_SIEGEFACTORY" dependent="0">
+			<STRING>查找攻城武器厂</STRING>
+			<SHORT_STRING>查找攻城武器厂</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_DOCK" dependent="0">
+			<STRING>查找码头/船坞</STRING>
+			<SHORT_STRING>查找码头/船坞</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_AIRBASE" dependent="0">
+			<STRING>查找空军基地</STRING>
+			<SHORT_STRING>查找空军基地</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_SILO" dependent="0">
+			<STRING>查找导弹发射井</STRING>
+			<SHORT_STRING>查找导弹发射井</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_UNIVERSITY" dependent="0">
+			<STRING>查找大学</STRING>
+			<SHORT_STRING>查找大学</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_VILLAGE_NOZOOM" dependent="1">
+			<STRING>选择城市, 但不居中</STRING>
+			<SHORT_STRING>选择城市, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_LIBRARY_NOZOOM" dependent="1">
+			<STRING>选择图书馆, 但不居中</STRING>
+			<SHORT_STRING>选择图书馆, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_MARKET_NOZOOM" dependent="1">
+			<STRING>选择市场, 但不居中</STRING>
+			<SHORT_STRING>选择市场, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_BARRACKS_NOZOOM" dependent="1">
+			<STRING>选择兵营, 但不居中</STRING>
+			<SHORT_STRING>选择兵营, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_STABLE_NOZOOM" dependent="1">
+			<STRING>选择马厩, 但不居中</STRING>
+			<SHORT_STRING>选择马厩, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_SIEGEFACTORY_NOZOOM" dependent="1">
+			<STRING>选择攻城武器厂, 但不居中</STRING>
+			<SHORT_STRING>选择攻城武器厂, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_DOCK_NOZOOM" dependent="1">
+			<STRING>选择码头, 但不居中</STRING>
+			<SHORT_STRING>选择码头, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_AIRBASE_NOZOOM" dependent="1">
+			<STRING>选择空军基地, 但不居中</STRING>
+			<SHORT_STRING>选择空军基地, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_SILO_NOZOOM" dependent="1">
+			<STRING>选择导弹发射井, 但不居中</STRING>
+			<SHORT_STRING>选择导弹发射井, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_UNIVERSITY_NOZOOM" dependent="1">
+			<STRING>选择大学, 但不居中</STRING>
+			<SHORT_STRING>选择大学, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_VILLAGE_ALL" dependent="1">
+			<STRING>选择所有城市</STRING>
+			<SHORT_STRING>选择所有城市</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_LIBRARY_ALL" dependent="1">
+			<STRING>选择所有图书馆</STRING>
+			<SHORT_STRING>选择所有图书馆</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_MARKET_ALL" dependent="1">
+			<STRING>选择所有市场</STRING>
+			<SHORT_STRING>选择所有市场</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_BARRACKS_ALL" dependent="1">
+			<STRING>选择所有兵营</STRING>
+			<SHORT_STRING>选择所有兵营</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_STABLE_ALL" dependent="1">
+			<STRING>选择所有马厩</STRING>
+			<SHORT_STRING>选择所有马厩</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_SIEGEFACTORY_ALL" dependent="1">
+			<STRING>选择所有攻城武器厂</STRING>
+			<SHORT_STRING>选择所有攻城武器厂</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_DOCK_ALL" dependent="1">
+			<STRING>选择所有码头</STRING>
+			<SHORT_STRING>选择所有码头</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_AIRBASE_ALL" dependent="1">
+			<STRING>选择所有空军基地</STRING>
+			<SHORT_STRING>选择所有空军基地</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_SILO_ALL" dependent="1">
+			<STRING>选择所有导弹发射井</STRING>
+			<SHORT_STRING>选择所有导弹发射井</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_UNIVERSITY_ALL" dependent="1">
+			<STRING>选择所有大学</STRING>
+			<SHORT_STRING>选择所有大学</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_GATHER" dependent="0">
+			<STRING>建筑: 设置集结点</STRING>
+			<SHORT_STRING>设置集结点</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CLEAR_GATHER" dependent="0">
+			<STRING>建筑: 清除集结点</STRING>
+			<SHORT_STRING>清除集结点</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_PAUSE" dependent="0">
+			<STRING>暂停游戏</STRING>
+			<SHORT_STRING>暂停游戏</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_PAUSE2" dependent="0">
+			<STRING>暂停游戏</STRING>
+			<SHORT_STRING>暂停游戏</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DISBAND" dependent="0">
+			<STRING>单位/建筑物: 解散/拆毁</STRING>
+			<SHORT_STRING>解散/拆毁</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TRANSPORT" dependent="0">
+			<STRING>单位: 切换自动运输</STRING>
+			<SHORT_STRING>自动运输</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ZOOM" dependent="0">
+			<STRING>缩放</STRING>
+			<SHORT_STRING>缩放</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ZOOM_IN" dependent="0">
+			<STRING>放大</STRING>
+			<SHORT_STRING>放大</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ZOOM_OUT" dependent="0">
+			<STRING>缩小</STRING>
+			<SHORT_STRING>缩小</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ZOOM_IN2" dependent="0">
+			<STRING>放大 (2)</STRING>
+			<SHORT_STRING>放大 (2)</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ZOOM_OUT2" dependent="0">
+			<STRING>缩小 (2)</STRING>
+			<SHORT_STRING>缩小 (2)</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ZOOM_IN3" dependent="0">
+			<STRING>放大 (3)</STRING>
+			<SHORT_STRING>放大 (3)</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ZOOM_OUT3" dependent="0">
+			<STRING>缩小 (3)</STRING>
+			<SHORT_STRING>缩小 (3)</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SAVE_ZOOM_IN" dependent="0">
+			<STRING>保存放大</STRING>
+			<SHORT_STRING>保存放大</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SAVE_ZOOM_OUT" dependent="0">
+			<STRING>保存缩小</STRING>
+			<SHORT_STRING>保存缩小</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_MILITARY" dependent="0">
+			<STRING>查找军事单位/命令组</STRING>
+			<SHORT_STRING>查找军事单位/命令组</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_PEASANT" dependent="0">
+			<STRING>查找空闲市民</STRING>
+			<SHORT_STRING>查找空闲市民</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_GENERAL" dependent="0">
+			<STRING>查找将军</STRING>
+			<SHORT_STRING>查找将军</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_SCOUT" dependent="0">
+			<STRING>查找侦察员</STRING>
+			<SHORT_STRING>查找侦察员</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_SPY" dependent="0">
+			<STRING>查找间谍</STRING>
+			<SHORT_STRING>查找间谍</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_SUPPLY" dependent="0">
+			<STRING>查找补给车</STRING>
+			<SHORT_STRING>查找补给车</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_MILITARY_NOZOOM" dependent="1">
+			<STRING>选择军事单位, 但不居中</STRING>
+			<SHORT_STRING>选择军事单位, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_PEASANT_NOZOOM" dependent="1">
+			<STRING>选择空闲市民, 但不居中</STRING>
+			<SHORT_STRING>选择空闲市民, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_GENERAL_NOZOOM" dependent="1">
+			<STRING>选择将军, 但不居中</STRING>
+			<SHORT_STRING>选择将军, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_SCOUT_NOZOOM" dependent="1">
+			<STRING>选择侦察员, 但不居中</STRING>
+			<SHORT_STRING>选择侦察员, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_SPY_NOZOOM" dependent="1">
+			<STRING>选择间谍, 但不居中</STRING>
+			<SHORT_STRING>选择间谍, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_SUPPLY_NOZOOM" dependent="1">
+			<STRING>选择补给车, 但不居中</STRING>
+			<SHORT_STRING>选择补给车, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ALL_MILITARY" dependent="1">
+			<STRING>选择所有军事单位</STRING>
+			<SHORT_STRING>选择所有军事单位</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ALL_PEASANT" dependent="1">
+			<STRING>选择所有空闲市民</STRING>
+			<SHORT_STRING>选择所有空闲市民</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ALL_GENERAL" dependent="1">
+			<STRING>选择所有将军</STRING>
+			<SHORT_STRING>选择所有将军</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ALL_SCOUT" dependent="1">
+			<STRING>选择所有侦察员</STRING>
+			<SHORT_STRING>选择所有侦察员</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ALL_SPY" dependent="1">
+			<STRING>选择所有间谍</STRING>
+			<SHORT_STRING>选择所有间谍</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ALL_补给车" dependent="1">
+			<STRING>选择所有补给车</STRING>
+			<SHORT_STRING>选择所有补给车</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STANCE" dependent="0">
+			<STRING>单位: 下一状态</STRING>
+			<SHORT_STRING>下一状态</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_NONIDLE_PEASANT" dependent="0">
+			<STRING>查找任何市民</STRING>
+			<SHORT_STRING>查找任何市民</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ALL_NONIDLE_PEASANT" dependent="1">
+			<STRING>选择所有市民</STRING>
+			<SHORT_STRING>选择所有市民</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_NOZOOM_NONIDLE_PEASANT" dependent="1">
+			<STRING>选择任何市民, 但不居中</STRING>
+			<SHORT_STRING>选择任何市民, 但不居中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_AUTO_EXPLORE" dependent="0">
+			<STRING>单位: 自动探索</STRING>
+			<SHORT_STRING>自动探索</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_FOLLOW" dependent="0">
+			<STRING>单位: 跟随</STRING>
+			<SHORT_STRING>跟随</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_GUARD" dependent="0">
+			<STRING>单位: 警戒</STRING>
+			<SHORT_STRING>警戒</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ATTACK_TO" dependent="0">
+			<STRING>单位: 攻击移动到</STRING>
+			<SHORT_STRING>攻击移动到</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_EXPLORE_TO" dependent="0">
+			<STRING>单位: 探索到</STRING>
+			<SHORT_STRING>探索到</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_FLEE_TO" dependent="0">
+			<STRING>单位: 撤退到</STRING>
+			<SHORT_STRING>撤退到</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_MOVE_TO" dependent="0">
+			<STRING>单位: 移动到</STRING>
+			<SHORT_STRING>移动到</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_FORWARD" dependent="0">
+			<STRING>单位: 前进</STRING>
+			<SHORT_STRING>前进</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_FORWARD2" dependent="0">
+			<STRING>单位: 前进 (2)</STRING>
+			<SHORT_STRING>前进 (2)</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_PATROL" dependent="0">
+			<STRING>单位: 巡逻</STRING>
+			<SHORT_STRING>巡逻</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_HALT" dependent="0">
+			<STRING>单位: 停止</STRING>
+			<SHORT_STRING>停止</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ATTACK_GROUND" dependent="0">
+			<STRING>单位: 强制攻击</STRING>
+			<SHORT_STRING>强制攻击</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_EJECT_ALL" dependent="0">
+			<STRING>单位/建筑物: 全部撤出</STRING>
+			<SHORT_STRING>全部撤出</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_NEXT_MESSAGE" dependent="0">
+			<STRING>下一消息</STRING>
+			<SHORT_STRING>下一消息</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_NEXT_MESSAGE2" dependent="0">
+			<STRING>下一消息2</STRING>
+			<SHORT_STRING>下一消息2</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_PREV_MESSAGE" dependent="1">
+			<STRING>前一消息</STRING>
+			<SHORT_STRING>前一消息</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_PREV_MESSAGE2" dependent="1">
+			<STRING>前一消息2</STRING>
+			<SHORT_STRING>前一消息2</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SCENE_HELP" dependent="0">
+			<STRING>场景帮助</STRING>
+			<SHORT_STRING>场景帮助</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOGGLE_HELP" dependent="0">
+			<STRING>增加帮助文本</STRING>
+			<SHORT_STRING>增加帮助文本</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_PREV_HELP" dependent="0">
+			<STRING>减少帮助文本</STRING>
+			<SHORT_STRING>减少帮助文本</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOGGLE_THOUGHTS" dependent="0">
+			<STRING>切换目标计划</STRING>
+			<SHORT_STRING>切换目标计划</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_NEXT_DATA" dependent="0">
+			<STRING>下一数据</STRING>
+			<SHORT_STRING>下一数据</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_PREV_DATA" dependent="1">
+			<STRING>上一数据</STRING>
+			<SHORT_STRING>上一数据</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOGGLE_DATA" dependent="1">
+			<STRING>切换数据</STRING>
+			<SHORT_STRING>切换数据</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STAT" dependent="0">
+			<STRING>循环数据显示</STRING>
+			<SHORT_STRING>循环数据显示</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOGGLE_FF_COLORS" dependent="0">
+			<STRING>切换友方/敌方颜色</STRING>
+			<SHORT_STRING>切换友方/敌方颜色</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOGGLE_CITY_NAMES" dependent="0">
+			<STRING>切换城市名称</STRING>
+			<SHORT_STRING>切换城市名称</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOGGLE_STATS" dependent="0">
+			<STRING>切换研究进度条</STRING>
+			<SHORT_STRING>切换研究进度条</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOGGLE_ADVANCED" dependent="0">
+			<STRING>切换高级菜单</STRING>
+			<SHORT_STRING>高级菜单</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STATWIN" dependent="0">
+			<STRING>状态窗口</STRING>
+			<SHORT_STRING>状态窗口</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_PING" dependent="0">
+			<STRING>发送信号</STRING>
+			<SHORT_STRING>发送信号</SHORT_STRING>
+		</KEY>
+		<KEY enum="CHEAT_HURRY_JOB" dependent="0">
+			<STRING>作弊: 加速工作</STRING>
+			<SHORT_STRING>作弊: 加速工作</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_QUEUE" dependent="0">
+			<STRING>建筑: 取消队列</STRING>
+			<SHORT_STRING>取消队列</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_OBJECTIVES" dependent="0">
+			<STRING>显示对象</STRING>
+			<SHORT_STRING>显示对象</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_MENU" dependent="0">
+			<STRING>游戏菜单</STRING>
+			<SHORT_STRING>游戏菜单</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_OPTIONS" dependent="0">
+			<STRING>游戏选项</STRING>
+			<SHORT_STRING>游戏选项</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOGGLE_TIME" dependent="0">
+			<STRING>切换计时器显示</STRING>
+			<SHORT_STRING>切换计时器显示</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_LEFT" dependent="0">
+			<STRING>单位: 阵形左转</STRING>
+			<SHORT_STRING>阵形左转</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_RIGHT" dependent="0">
+			<STRING>单位: 阵形右转</STRING>
+			<SHORT_STRING>阵形右转</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DOWN" dependent="0">
+			<STRING>单位: 阵形后退</STRING>
+			<SHORT_STRING>阵形后退</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_UP" dependent="0">
+			<STRING>镜头: 向上</STRING>
+			<SHORT_STRING>镜头: 向上</SHORT_STRING>
+		</KEY>
+		<KEY enum="TERRAINDEBUG" dependent="0">
+			<STRING>地形调试</STRING>
+			<SHORT_STRING>地形调试</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_PING2" dependent="0">
+			<STRING>发送信号 (2)</STRING>
+			<SHORT_STRING>发送信号 (2)</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CANNON_TIME" dependent="0">
+			<STRING>激活时间窃取</STRING>
+			<SHORT_STRING>时间窃取</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOGGLE_IFACE_MAIN" dependent="0">
+			<STRING>切换主界面</STRING>
+			<SHORT_STRING>主界面</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOGGLE_IFACE_RESOURCES" dependent="0">
+			<STRING>切换资源界面</STRING>
+			<SHORT_STRING>资源界面</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOGGLE_IFACE_MARKET" dependent="0">
+			<STRING>切换市场界面</STRING>
+			<SHORT_STRING>市场界面</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOGGLE_IFACE_INFRA" dependent="0">
+			<STRING>切换基础界面</STRING>
+			<SHORT_STRING>基础界面</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ALL_CURRENT" dependent="0">
+			<STRING>选择所有当前选中的类型</STRING>
+			<SHORT_STRING>选择全部</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STAT_NORMAL" dependent="0">
+			<STRING>数据显示: 政治</STRING>
+			<SHORT_STRING>数据显示: 政治</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STAT_ECONOMY" dependent="0">
+			<STRING>数据显示: 经济</STRING>
+			<SHORT_STRING>数据显示: 经济</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STAT_MARKET" dependent="0">
+			<STRING>数据显示: 市场</STRING>
+			<SHORT_STRING>数据显示: 市场</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STAT_MILITARY" dependent="0">
+			<STRING>数据显示: 军事</STRING>
+			<SHORT_STRING>数据显示: 军事</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STAT_LIBRARY" dependent="0">
+			<STRING>数据显示: 城市</STRING>
+			<SHORT_STRING>数据显示: 城市</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STAT_TECHNOLOGY" dependent="0">
+			<STRING>数据显示: 升级</STRING>
+			<SHORT_STRING>数据显示: 升级</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STAT_GROUPS" dependent="0">
+			<STRING>数据显示: 命令组</STRING>
+			<SHORT_STRING>数据显示: 命令组</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STAT_DIPLOMACY">
+			<STRING>数据显示: 外交</STRING>
+			<SHORT_STRING>数据显示: 外交</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STAT_WONDERS">
+			<STRING>数据显示: 奇迹</STRING>
+			<SHORT_STRING>数据显示: 奇迹</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_TEXTURES" dependent="0">
+			<STRING>SYSTEM_TOGGLE_TEXTURES</STRING>
+			<SHORT_STRING>SYSTEM_TOGGLE_TEXTURES</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_MEM_WINDOW" dependent="0">
+			<STRING>SYSTEM_TOGGLE_MEM_WINDOW</STRING>
+			<SHORT_STRING>SYSTEM_TOGGLE_MEM_WINDOW</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_MEM_PRINT" dependent="0">
+			<STRING>SYSTEM_MEM_PRINT</STRING>
+			<SHORT_STRING>SYSTEM_MEM_PRINT</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_SCRIPT_LOG" dependent="0">
+			<STRING>SYSTEM_SCRIPT_LOG</STRING>
+			<SHORT_STRING>SYSTEM_SCRIPT_LOG</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TEST_XML_WINDOW" dependent="0">
+			<STRING>SYSTEM_TEST_XML_WINDOW</STRING>
+			<SHORT_STRING>SYSTEM_TEST_XML_WINDOW</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_RELOAD_XML_WINDOW" dependent="0">
+			<STRING>SYSTEM_RELOAD_XML_WINDOW</STRING>
+			<SHORT_STRING>SYSTEM_RELOAD_XML_WINDOW</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_SCRIPT_EDITOR_EDIT_MODE" dependent="0">
+			<STRING>SYSTEM_SCRIPT_EDITOR_EDIT_MODE</STRING>
+			<SHORT_STRING>SYSTEM_SCRIPT_EDITOR_EDIT_MODE</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_RESEARCH" dependent="0">
+			<STRING>查找研究建筑</STRING>
+			<SHORT_STRING>查找研究建筑</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SPY_COUNTERINTEL" dependent="0">
+			<STRING>间谍: 反间谍</STRING>
+			<SHORT_STRING>反间谍</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_VILLAGE_GATHER_FARM" dependent="0">
+			<STRING>城市: 集结到农场</STRING>
+			<SHORT_STRING>集结到农场</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_VILLAGE_GATHER_WOOD" dependent="0">
+			<STRING>城市: 集结到伐木场</STRING>
+			<SHORT_STRING>集结到伐木场</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_VILLAGE_GATHER_MINE" dependent="0">
+			<STRING>城市: 集结到采矿场</STRING>
+			<SHORT_STRING>集结到采矿场</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_VILLAGE_GATHER_ALL" dependent="0">
+			<STRING>城市: 集结到资源建筑</STRING>
+			<SHORT_STRING>集结到资源建筑</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTIONS_HELP_LOW">
+			<STRING>设置帮助细节: 低</STRING>
+			<SHORT_STRING>帮助细节: 低</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTIONS_HELP_MEDIUM">
+			<STRING>设置帮助细节: 中</STRING>
+			<SHORT_STRING>帮助细节: 中</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTIONS_HELP_HIGH">
+			<STRING>设置帮助细节: 高</STRING>
+			<SHORT_STRING>帮助细节: 高</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_STAT_OFF">
+			<STRING>关闭数据显示</STRING>
+			<SHORT_STRING>关闭数据显示</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_UPGRADE_GRANARY2">
+			<STRING>粮仓: 升级步兵奖励</STRING>
+			<SHORT_STRING>升级部队生产</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_UPGRADE_LUMBER2">
+			<STRING>木材厂: 升级建筑奖励</STRING>
+			<SHORT_STRING>升级建筑奖励</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_UPGRADE_SMELTER2">
+			<STRING>冶炼厂: 升级补给车奖励</STRING>
+			<SHORT_STRING>升级补给车奖励</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_UPGRADE_FORT2">
+			<STRING>据点: 升级间谍/将军奖励</STRING>
+			<SHORT_STRING>升级间谍/将军奖励</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_INFINITE">
+			<STRING>建筑: 切换无限建造队列</STRING>
+			<SHORT_STRING>无限建造队列</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_SHOW_SCENE_EVENTS">
+			<STRING>SYSTEM_SHOW_SCENE_EVENTS</STRING>
+			<SHORT_STRING>SYSTEM_SHOW_SCENE_EVENTS</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_DUMP_FRAMERATE" dependent="0">
+			<STRING>转储帧数</STRING>
+			<SHORT_STRING>转储帧数</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_AIRSTRIKE">
+			<STRING>空中单位: 空袭</STRING>
+			<SHORT_STRING>空袭</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TRANSFER">
+			<STRING>空中单位: 转场</STRING>
+			<SHORT_STRING>转场</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_RETURN">
+			<STRING>空中单位: 返回基地</STRING>
+			<SHORT_STRING>返回基地</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_AIRBASE_RECALL">
+			<STRING>空军基地: 召回所有飞机</STRING>
+			<SHORT_STRING>召回所有飞机</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_AIRBASE_REPEAT">
+			<STRING>空军基地: 切换重复命令</STRING>
+			<SHORT_STRING>切换重复命令</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_AIRBASE_FIGHTERS">
+			<STRING>空军基地: 选择所有战斗机</STRING>
+			<SHORT_STRING>选择所有战斗机</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_AIRBASE_BOMBERS">
+			<STRING>空军基地: 选择所有轰炸机</STRING>
+			<SHORT_STRING>选择所有轰炸机</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_AIRBASE_HELIS">
+			<STRING>空军基地: 选择所有直升机s</STRING>
+			<SHORT_STRING>选择所有直升机s</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_AIRBASE_SCRAMBLE">
+			<STRING>空军基地: 所有飞机紧急起飞</STRING>
+			<SHORT_STRING>所有飞机紧急起飞</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_UPGRADE_TEMPLE_2">
+			<STRING>寺庙: 升级税收</STRING>
+			<SHORT_STRING>升级税收</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_UPGRADE_SENATE">
+			<STRING>参议院: 研究极权政体</STRING>
+			<SHORT_STRING>研究极权政体</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_UPGRADE_SENATE_2">
+			<STRING>参议院: 研究民选政体</STRING>
+			<SHORT_STRING>研究民选政体</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_TOGGLE_SCENE_BEHIND">
+			<STRING>SYSTEM_TOGGLE_SCENE_BEHIND</STRING>
+			<SHORT_STRING>SYSTEM_TOGGLE_SCENE_BEHIND</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_VILLAGE_RENAME">
+			<STRING>城市: 重命名</STRING>
+			<SHORT_STRING>重命名</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_REPAIR">
+			<STRING>市民: 修理</STRING>
+			<SHORT_STRING>修理</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_PEASANT_ALARM">
+			<STRING>市民: 武装</STRING>
+			<SHORT_STRING>武装</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_FORM">
+			<STRING>单位: 改变阵形</STRING>
+			<SHORT_STRING>阵形</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CARRIER_AIRSTRIKE">
+			<STRING>航空母舰: 空中任务</STRING>
+			<SHORT_STRING>空中任务</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CARRIER_ALLAIR">
+			<STRING>航空母舰: 选择所有飞机</STRING>
+			<SHORT_STRING>选择所有飞机</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CARRIER_RECALL">
+			<STRING>航空母舰: 召回所有飞机</STRING>
+			<SHORT_STRING>召回所有飞机</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CARRIER_REPEAT">
+			<STRING>航空母舰: 切换重复命令</STRING>
+			<SHORT_STRING>切换重复命令</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOGGLE_BEHIND">
+			<STRING>切换建筑后单位</STRING>
+			<SHORT_STRING>切换建筑后单位</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_TOGGLE_TAUNTS">
+			<STRING>切换语音嘲弄</STRING>
+			<SHORT_STRING>切换语音嘲弄</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BACK_TO_WORK">
+			<STRING>建筑: 返回工作</STRING>
+			<SHORT_STRING>返回工作</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_DISBAND_ALL">
+			<STRING>单位: 全部解散</STRING>
+			<SHORT_STRING>解散全部</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_MESSAGE_UP">
+			<STRING>向上卷动信息列表</STRING>
+			<SHORT_STRING>向上卷动信息列表</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_MESSAGE_DOWN">
+			<STRING>向下卷动信息列表</STRING>
+			<SHORT_STRING>向下卷动信息列表</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_SELECT_FILE">
+			<STRING>脚本编辑器: 载入脚本</STRING>
+			<SHORT_STRING>载入脚本</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_NEW">
+			<STRING>脚本编辑器: 新建 (空白文件)</STRING>
+			<SHORT_STRING>新建 (空白文件)</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_NEW_TEMP">
+			<STRING>脚本编辑器: 新建剧情脚本</STRING>
+			<SHORT_STRING>新建剧情脚本</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_LOAD">
+			<STRING>脚本编辑器: 打开</STRING>
+			<SHORT_STRING>打开</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_SAVE">
+			<STRING>脚本编辑器: 保存</STRING>
+			<SHORT_STRING>保存</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_SAVE_AS">
+			<STRING>脚本编辑器: 保存为...</STRING>
+			<SHORT_STRING>保存为...</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_CLOSE">
+			<STRING>脚本编辑器: 关闭脚本</STRING>
+			<SHORT_STRING>关闭脚本</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_EXIT">
+			<STRING>脚本编辑器: 退出编辑器</STRING>
+			<SHORT_STRING>退出编辑器</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_UNDO">
+			<STRING>脚本编辑器: 撤销</STRING>
+			<SHORT_STRING>撤销</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_REDO">
+			<STRING>脚本编辑器: 重做</STRING>
+			<SHORT_STRING>重做</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_COPY">
+			<STRING>脚本编辑器: 复制</STRING>
+			<SHORT_STRING>复制</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_CUT">
+			<STRING>脚本编辑器: 剪切</STRING>
+			<SHORT_STRING>剪切</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_PASTE">
+			<STRING>脚本编辑器: 粘贴</STRING>
+			<SHORT_STRING>粘贴</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_SELECT_ALL">
+			<STRING>脚本编辑器: 选择全部</STRING>
+			<SHORT_STRING>选择全部</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_SCROLL_TO_LINE">
+			<STRING>脚本编辑器: 到第...行</STRING>
+			<SHORT_STRING>到第...行</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_SCROLL_TO_TRIGGER">
+			<STRING>脚本编辑器: 卷动到触发器</STRING>
+			<SHORT_STRING>卷动到触发器</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_SCROLL_TO_SCRIPT">
+			<STRING>脚本编辑器: 卷动到脚本</STRING>
+			<SHORT_STRING>卷动到脚本</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_TOGGLE_BREAK">
+			<STRING>脚本编辑器: 切换断点</STRING>
+			<SHORT_STRING>切换切换断点</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_FIND">
+			<STRING>脚本编辑器: 查找...</STRING>
+			<SHORT_STRING>查找...</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_FIND_NEXT">
+			<STRING>脚本编辑器: 查找下一个</STRING>
+			<SHORT_STRING>查找下一个</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_REPLACE">
+			<STRING>脚本编辑器: 替换...</STRING>
+			<SHORT_STRING>替换...</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_TOGGLE_OUTPUT">
+			<STRING>脚本编辑器: 导出日志</STRING>
+			<SHORT_STRING>导出日志</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_SHOW_LOG">
+			<STRING>脚本编辑器: 游戏脚本日志</STRING>
+			<SHORT_STRING>游戏脚本日志</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_INSERT_TRIGGER">
+			<STRING>脚本编辑器: 增加触发器...</STRING>
+			<SHORT_STRING>插入触发器...</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_INSERT_FUNC">
+			<STRING>脚本编辑器: 增加函数...</STRING>
+			<SHORT_STRING>插入触发器函数...</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_COMPILE">
+			<STRING>脚本编辑器: 编译</STRING>
+			<SHORT_STRING>编译</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_RUN">
+			<STRING>脚本编辑器: 运行</STRING>
+			<SHORT_STRING>运行</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_STEP_INTO">
+			<STRING>脚本编辑器: 进入单步执行</STRING>
+			<SHORT_STRING>进入单步执行</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_STEP_OVER">
+			<STRING>脚本编辑器: 单步执行结束</STRING>
+			<SHORT_STRING>单步执行结束</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_STEP_OUT">
+			<STRING>脚本编辑器: 跳出单步执行</STRING>
+			<SHORT_STRING>跳出单步执行</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_STEP_TO_TRIGGER">
+			<STRING>脚本编辑器: 单步执行到触发器</STRING>
+			<SHORT_STRING>单步执行到触发器</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_STEP_TO_LINE">
+			<STRING>脚本编辑器: 运行到第...行</STRING>
+			<SHORT_STRING>运行到第...行</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_STOP">
+			<STRING>脚本编辑器: 停止</STRING>
+			<SHORT_STRING>停止</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_BREAKPOINTS">
+			<STRING>脚本编辑器: 断点</STRING>
+			<SHORT_STRING>断点</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_REMOVE_BREAKS">
+			<STRING>脚本编辑器: 移除所有中断</STRING>
+			<SHORT_STRING>移除所有中断</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_WATCH_LOCALS">
+			<STRING>脚本编辑器: 查看局部变量</STRING>
+			<SHORT_STRING>查看局部变量</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_WATCH_STATICS">
+			<STRING>脚本编辑器: 查看静态变量</STRING>
+			<SHORT_STRING>查看静态变量</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_WATCH_TRIGGERS">
+			<STRING>脚本编辑器: 查看触发器</STRING>
+			<SHORT_STRING>查看触发器</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_WATCH_CUSTOM">
+			<STRING>脚本编辑器: 定制观看</STRING>
+			<SHORT_STRING>定制观看</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_WATCH_RETURNS">
+			<STRING>脚本编辑器: 查看返回值</STRING>
+			<SHORT_STRING>查看返回值</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ARMORY_FLAME">
+			<STRING>兵营: 建造喷火兵</STRING>
+			<SHORT_STRING>建造喷火兵</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SIEGEFACTORY_AA">
+			<STRING>火炮制造厂: 建造高射炮</STRING>
+			<SHORT_STRING>建造高射炮</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SIEGEFACTORY_AA_UPGRADE">
+			<STRING>火炮制造厂: 升级高射炮</STRING>
+			<SHORT_STRING>升级高射炮</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SCHOLAR_TO_ARMS">
+			<STRING>学者: 武装</STRING>
+			<SHORT_STRING>武装</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SILO_GROUND">
+			<STRING>导弹发射井: 强制攻击</STRING>
+			<SHORT_STRING>强制攻击</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_RUN_SECTION_PROFILE">
+			<STRING>SYSTEM_RUN_SECTION_PROFILE</STRING>
+			<SHORT_STRING>SYSTEM_RUN_SECTION_PROFILE</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_SHOW_SECTION_PROFILE">
+			<STRING>SYSTEM_SHOW_SECTION_PROFILE</STRING>
+			<SHORT_STRING>SYSTEM_SHOW_SECTION_PROFILE</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_FORT">
+			<STRING>移到堡垒</STRING>
+			<SHORT_STRING>移到堡垒</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_FORT_NOZOOM">
+			<STRING>选择堡垒，不缩放</STRING>
+			<SHORT_STRING>选择堡垒，不缩放</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_FORT_ALL">
+			<STRING>选取所有堡垒</STRING>
+			<SHORT_STRING>选取所有堡垒</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_TOWER">
+			<STRING>移到塔楼</STRING>
+			<SHORT_STRING>移到塔楼</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_TOWER_NOZOOM">
+			<STRING>选择塔楼，不缩放</STRING>
+			<SHORT_STRING>选择塔楼，不缩放</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_TOWER_ALL">
+			<STRING>选取所有塔楼</STRING>
+			<SHORT_STRING>选取所有塔楼</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_SENATE">
+			<STRING>移到参议院</STRING>
+			<SHORT_STRING>移到参议院</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_SENATE_NOZOOM">
+			<STRING>选择参议院，不缩放</STRING>
+			<SHORT_STRING>选择参议院，不缩放</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_TEMPLE">
+			<STRING>移到寺庙</STRING>
+			<SHORT_STRING>移到寺庙</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_TEMPLE_NOZOOM">
+			<STRING>选择寺庙，不缩放</STRING>
+			<SHORT_STRING>选择寺庙，不缩放</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_TEMPLE_ALL">
+			<STRING>选取所有寺庙</STRING>
+			<SHORT_STRING>选取所有寺庙</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_MERCHANT">
+			<STRING>移到空闲商人</STRING>
+			<SHORT_STRING>移到空闲商人</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_MERCHANT_NOZOOM">
+			<STRING>选择空闲商人，不缩放</STRING>
+			<SHORT_STRING>选择空闲商人，不缩放</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ALL_MERCHANT">
+			<STRING>选取所有空闲商人</STRING>
+			<SHORT_STRING>选取所有空闲商人</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_FISHERMAN">
+			<STRING>移到空闲渔民</STRING>
+			<SHORT_STRING>移到空闲渔民</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_FISHERMAN_NOZOOM">
+			<STRING>选择空闲渔民，不缩放</STRING>
+			<SHORT_STRING>选择空闲渔民，不缩放</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ALL_FISHERMAN">
+			<STRING>选取所有空闲渔民</STRING>
+			<SHORT_STRING>选取所有空闲渔民</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_PATRIOT">
+			<STRING>选取爱国者</STRING>
+			<SHORT_STRING>选取爱国者</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_CYCLE_PATRIOT_NOZOOM">
+			<STRING>选取爱国者，不缩放</STRING>
+			<SHORT_STRING>选取爱国者，不缩放</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_SELECT_DAMAGED">
+			<STRING>选取所有受损单位</STRING>
+			<SHORT_STRING>选取所有受损单位</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_FILTER_DAMAGED">
+			<STRING>受损单位的选择筛选器</STRING>
+			<SHORT_STRING>受损单位的选择筛选器</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_FILTER_ONSCREEN">
+			<STRING>画面单位的选择筛选器</STRING>
+			<SHORT_STRING>画面单位的选择筛选器</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_MARWAN_START">
+			<STRING>SYSTEM_MARWAN_START</STRING>
+			<SHORT_STRING>SYSTEM_MARWAN_START</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_MARWAN_STOP">
+			<STRING>SYSTEM_MARWAN_STOP</STRING>
+			<SHORT_STRING>SYSTEM_MARWAN_STOP</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_HILITE_UP">
+			<STRING>SYSTEM_HILITE_UP</STRING>
+			<SHORT_STRING>SYSTEM_HILITE_UP</SHORT_STRING>
+		</KEY>
+		<KEY enum="SYSTEM_HILITE_DOWN">
+			<STRING>SYSTEM_HILITE_DOWN</STRING>
+			<SHORT_STRING>SYSTEM_HILITE_DOWN</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_BUILD_SENATE">
+			<STRING>建造参议院</STRING>
+			<SHORT_STRING>建造参议院</SHORT_STRING>
+		</KEY>
+		<KEY enum="MENU_h">
+			<STRING>MENU_h</STRING>
+			<SHORT_STRING>MENU_h</SHORT_STRING>
+		</KEY>
+		<KEY enum="OPTION_ALL_SUPPLY"><STRING>OPTION_ALL_SUPPLY</STRING><SHORT_STRING>OPTION_ALL_SUPPLY</SHORT_STRING></KEY></KEYS>
+</ROOT>
