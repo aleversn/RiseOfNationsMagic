@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- edited with XML Spy v4.0 U (http://www.xmlspy.com) by Jeff Chen (Atomsky) -->
+<!--editedwithXMLSpyv4.0U（http：//www.xmlspy.com）byJeffChen（Atomsky）-->
+<!--editedwithXMLSPYv5rel.2U（http：//www.xmlspy.com）byBrianReynolds（BigHugeGames）-->
+<OPTIONS xml:space="preserve">
+	<!--LOCALIZATION-->
+	<!--LOCALIZATION-->
+	<!--LOCALIZATION-->
+	<!--LOCALIZATION：NAMEandDESCelements-->
+	<!--LOCALIZATION-->
+	<!--LOCALIZATION-->
+	<!--LOCALIZATION-->
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="2" tex_row="0" clip="0">
+		<NAME>建筑</NAME>
+		<DESC>按一下建造新的建筑。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="3" tex_row="0" clip="0">
+		<NAME>军事建筑</NAME>
+		<DESC>按一下建造新的军事建筑。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="0" clip="0">
+		<NAME>奇观</NAME>
+		<DESC>按一下建造新的奇观。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="0" clip="0">
+		<NAME>修复/建造</NAME>
+		<DESC>按一下修复建筑或增加建造建筑的工人。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="3" clip="0">
+		<NAME>特殊功能</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="3" clip="0">
+		<NAME>移动模式</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="3" clip="0">
+		<NAME>护卫</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="1" clip="0">
+		<NAME>跟随</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="4" clip="0">
+		<NAME>巡逻</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="6" clip="0">
+		<NAME>移动</NAME>
+		<DESC>按一下可移动。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="0" tex_row="5" clip="0">
+		<NAME>攻击</NAME>
+		<DESC>按一下可攻击。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="3" clip="0">
+		<NAME>探索移动</NAME>
+		<DESC>按一下即可在探索废墟时移动。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="0" tex_row="6" clip="0">
+		<NAME>逃离</NAME>
+		<DESC>按一下可逃离敌人。</DESC>
+	</OPTION>
+	<OPTION tex_col="1" tex_row="2" clip="0">
+		<NAME>运输至</NAME>
+		<DESC>按一下可渡过水域移动与运输。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="2" tex_row="2" clip="0">
+		<NAME>自动运输</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="0" clip="0">
+		<NAME>遣散</NAME>
+		<DESC>按一下可遣散选取的单位。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>遣散全部</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>态势</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>后退态势</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_x="0" tex_y="0" tex_row="-1" clip="0">
+		<NAME>阵式</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>后退阵式</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="5" tex_row="11" clip="0">
+		<NAME>朝左</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="11" clip="0">
+		<NAME>朝右</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>向后转</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="6" clip="0">
+		<NAME>前进</NAME>
+		<DESC>按一下可前进。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="1" clip="0">
+		<NAME>停止</NAME>
+		<DESC>按一下可停止目前行动。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="1" clip="0">
+		<NAME>驻守/治疗</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="2" clip="0">
+		<NAME>警告平民</NAME>
+		<DESC>按一下将此工作者送往安全地区。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="2" clip="0">
+		<NAME>全城警备</NAME>
+		<DESC>按一下发布全城警备音效。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="3" tex_row="2" clip="0">
+		<NAME>解除警备</NAME>
+		<DESC>按一下发布解除警报音效。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="7" clip="0">
+		<NAME>返回工作</NAME>
+		<DESC>按一下遣送驻守的市民回去工作。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="5" tex_row="1" clip="0">
+		<NAME>全部撤守</NAME>
+		<DESC>撤出货物或驻守单位。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="2" clip="0">
+		<NAME>登陆</NAME>
+		<DESC>按一下可在指定地点登陆单位。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="3" clip="0">
+		<NAME>自动探索</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="0" tex_row="2" clip="0">
+		<NAME>炮击地面</NAME>
+		<DESC>按一下会炮击地图某处，而非攻击指定目标。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="4" clip="0">
+		<NAME>转移</NAME>
+		<DESC>按一下将单位转移到不同建筑。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="5" tex_row="8" clip="0">
+		<NAME>航空任务</NAME>
+		<DESC>按一下可下令进行空袭或空中巡逻。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>空中巡逻</NAME>
+		<DESC>按一下可下令在指定地点进行空中巡逻。</DESC>
+	</OPTION>
+	<OPTION tex_col="8" tex_row="0" clip="0">
+		<NAME>飞行命令</NAME>
+		<DESC>按一下向选取的飞机发号命令。</DESC>
+	</OPTION>
+	<OPTION tex_col="8" tex_row="4" clip="0">
+		<NAME>选取战斗机</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="8" tex_row="4" clip="0">
+		<NAME>选取轰炸机</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="8" tex_row="4" clip="0">
+		<NAME>选取直升机</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="8" tex_row="4" clip="0">
+		<NAME>选取所有飞机</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="7" clip="0">
+		<NAME>紧急起飞</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="0" tex_row="11" clip="0">
+		<NAME>重复命令</NAME>
+		<DESC>按一下让飞机在降落并加油后重复（或停止）赋予命令。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="2" tex_row="1" clip="0">
+		<NAME>返回基地</NAME>
+		<DESC>按一下将这架飞机送返基地。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="0" tex_row="10" clip="0">
+		<NAME>召回</NAME>
+		<DESC>按一下来召回所有由此处起飞的飞机，并取消所有飞行。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>产生</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>研究</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>研究类别</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>升级</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="4" clip="0">
+		<NAME>集结点</NAME>
+		<DESC>按一下将建筑设为集结点。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_1" tex_col="3" tex_row="4" clip="0">
+		<NAME>清除集结点</NAME>
+		<DESC>按一下由建筑移除集结点。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_1" tex_col="0" tex_row="5" clip="0">
+		<NAME>在农场集结</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_1" tex_col="1" tex_row="5" clip="0">
+		<NAME>在伐木营集结</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_1" tex_col="2" tex_row="5" clip="0">
+		<NAME>在矿坑集结</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_1" tex_col="3" tex_row="5" clip="0">
+		<NAME>在资源建筑集结</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>购买</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>购买500</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>全数购买</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>出售</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>出售500</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>全数出售</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="5" clip="0">
+		<NAME>建筑态势</NAME>
+		<DESC>按一下可设定在这里所产生单位的开始态势。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>无限排程</NAME>
+		<DESC>按一下在此建筑设定无限生产。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_0" tex_col="0" tex_row="1" clip="0">
+		<NAME>下一个</NAME>
+		<DESC>按一下显示额外选项。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_0" tex_col="0" tex_row="0" clip="0">
+		<NAME>返回</NAME>
+		<DESC>按一下返回外交选项。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_BUILDINGS_0" tex_col="0" tex_row="2" clip="0">
+		<NAME>取消</NAME>
+		<DESC>按一下则取消。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>条约</NAME>
+		<DESC>按一下来提议。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>宣告</NAME>
+		<DESC>按一下来宣告。</DESC>
+	</OPTION>
+	<OPTION tex_col="3" tex_row="1" clip="0">
+		<NAME>贡品</NAME>
+		<DESC>按一下提供贡品。</DESC>
+	</OPTION>
+	<OPTION tex_col="4" tex_row="1" clip="0">
+		<NAME>清除贡品</NAME>
+		<DESC>按一下清除贡品。</DESC>
+	</OPTION>
+	<OPTION tex_col="5" tex_row="1" clip="0">
+		<NAME>清除全部</NAME>
+		<DESC>消除所有提议。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>要求贡品</NAME>
+		<DESC>按一下要求贡品。</DESC>
+	</OPTION>
+	<OPTION tex_col="2" tex_row="1" clip="0">
+		<NAME>提议攻击</NAME>
+		<DESC>按一下可提议攻击。</DESC>
+	</OPTION>
+	<OPTION tex_col="6" tex_row="1" clip="0">
+		<NAME>提议"</NAME>
+		<DESC>按一下可提出目前提议。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>接受"</NAME>
+		<DESC>按一下来接受目前提议。</DESC>
+	</OPTION>
+	<OPTION tex_col="7" tex_row="1" clip="0">
+		<NAME>拒绝"</NAME>
+		<DESC>按一下则拒绝目前提议。</DESC>
+	</OPTION>
+	<OPTION tex_col="7" tex_row="1" clip="0">
+		<NAME>目前资源</NAME>
+		<DESC>显示你的目前资源</DESC>
+	</OPTION>
+	<OPTION tex_col="7" tex_row="1" clip="0">
+		<NAME>关闭外交</NAME>
+		<DESC>按一下则关闭外交。</DESC>
+	</OPTION>
+	<OPTION tex_col="7" tex_row="1" clip="0">
+		<NAME>返回主要外交</NAME>
+		<DESC>按一下返回（主要外交）菜单。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>外交状态</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>聊天</NAME>
+		<DESC>按一下与其它玩家聊天。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>与所有人聊天</NAME>
+		<DESC>按一下与所有玩家聊天。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>与盟友聊天</NAME>
+		<DESC>按一下与所有盟友聊天。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>与敌人聊天</NAME>
+		<DESC>按一下与所有敌人对话。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>发信号给其它玩家</NAME>
+		<DESC>按一下可在此处发送信号。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>放弃</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>退出</NAME>
+		<DESC>按一下则退出游戏。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>游戏菜单</NAME>
+		<DESC>按一下可开启游戏菜单。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>选项画面</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>减慢游戏速度</NAME>
+		<DESC>按一下可减慢游戏速度。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>加快游戏速度</NAME>
+		<DESC>按一下可加快游戏速度。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>目标</NAME>
+		<DESC>按一下会显示目标与胜利条件。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>转换</NAME>
+		<DESC>按一下则换至下一个单位。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>闲散市民</NAME>
+		<DESC>按一下则换至下一个闲散市民。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>闲散斥候</NAME>
+		<DESC>按一下则换至下一个斥候或特种部队单位。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>下个军事单位</NAME>
+		<DESC>按一下则换至下一个军事单位。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>下个将军</NAME>
+		<DESC>按一下则换至下个将军单位。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>下个间谍</NAME>
+		<DESC>按一下可移至下一个间谍。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>下个补给单位</NAME>
+		<DESC>按一下可移至下一个补给单位。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>下个城市</NAME>
+		<DESC>按一下可移至下一个城市。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>下个研究建筑</NAME>
+		<DESC>按一下可移至下一个可进行研究的建筑。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>所有市民</NAME>
+		<DESC>按一下可选取所有闲散市民。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>所有斥候</NAME>
+		<DESC>按一下可选取所有斥候和特种部队。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>所有军事单位</NAME>
+		<DESC>按一下可选取所有军事单位（以最大选取量为限）。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>所有将军</NAME>
+		<DESC>按一下可选取所有将军。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>所有间谍</NAME>
+		<DESC>按一下可选取所有间谍。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>所有补给单位</NAME>
+		<DESC>按一下可选取所有补给单位。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>所有建筑</NAME>
+		<DESC>按一下可选取所有这类型的建筑。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>选择市民</NAME>
+		<DESC>按一下可选择下个闲散市民</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>选择斥候</NAME>
+		<DESC>按一下可选择下个斥候</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>选择军事单位</NAME>
+		<DESC>按一下可选择下个军事单位。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>选择将军</NAME>
+		<DESC>按一下可选择下个将军。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>选择间谍</NAME>
+		<DESC>按一下可选择下个间谍。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>选择补给单位</NAME>
+		<DESC>按一下可选择下个补给单位。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>选择建筑</NAME>
+		<DESC>按一下可选择下一个这类型的建筑。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>转换非闲散市民</NAME>
+		<DESC>按一下可换至下个市民（含非闲散者）。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>所有非闲散市民</NAME>
+		<DESC>按一下可选取所有市民（含非闲散者）。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>选择非闲散市民</NAME>
+		<DESC>按一下可选择下个市民（含非闲散者）。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>选取所有目前类型</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>切换时钟显示</NAME>
+		<DESC>按一下可切换游戏时钟。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>切换游戏资料</NAME>
+		<DESC>按一下可切换资料显示。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>资料显示</NAME>
+		<DESC>按一下可转换资料显示。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>上一笔资料显示</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>切换研究显示</NAME>
+		<DESC>按一下可切换研究显示。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>说明文字细节</NAME>
+		<DESC>按一下可变更说明文字细节。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>上个说明细节</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>进阶选项</NAME>
+		<DESC>按一下可切换进阶菜单。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>切换时钟</NAME>
+		<DESC>按一下切换游戏时钟显示。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>切换友方或敌方颜色</NAME>
+		<DESC>按一下可切换友方或敌方颜色。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>切换城市名称</NAME>
+		<DESC>按一下可切换城市名称。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>切换后方单位</NAME>
+		<DESC>按一下可切换建筑与树木后方单位的显示。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>切换音效嘲讽</NAME>
+		<DESC>按一下可切换音效嘲讽。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>转换货物显示</NAME>
+		<DESC>按一下可转换货物显示。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>政治资料</NAME>
+		<DESC>按一下将资料显示设定为“政治”。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>经济资料</NAME>
+		<DESC>按一下将资料显示设定为“经济”。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>市场资料</NAME>
+		<DESC>按一下将资料显示设定为“市场”。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>军事资料</NAME>
+		<DESC>按一下将资料显示设定为“军事”。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>城市资料</NAME>
+		<DESC>按一下将资料显示设定为“城市”。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>升级资料</NAME>
+		<DESC>按一下将资料显示设定为“升级”。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>控制群组</NAME>
+		<DESC>按一下将资料显示设定为“群组”。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>外交</NAME>
+		<DESC>按一下将资料显示设定为“外交”。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>奇观</NAME>
+		<DESC>按一下将资料显示设定为“奇观”。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>关闭资料</NAME>
+		<DESC>按一下将资料显示设定为“关闭”。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>转换状态显示</NAME>
+		<DESC>按一下可转换状态显示。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>切换选项</NAME>
+		<DESC>按一下可切换此选项。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>战略地图</NAME>
+		<DESC>按一下可切换战略地图检视。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>放大</NAME>
+		<DESC>按一下即可放大。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>缩小</NAME>
+		<DESC>按一下即可缩小。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>储存放大值</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>储存缩小值</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>置中</NAME>
+		<DESC>按一下将所选物体置中。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>暂停</NAME>
+		<DESC>按一下可暂停游戏。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>超前模式</NAME>
+		<DESC>按一下可切换“超前模式”。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>定时器</NAME>
+		<DESC>显示“游戏”历经时间与目前速度。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>胜利定时器</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>迷你地图</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>首都之星</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>国旗</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>统治</NAME>
+		<DESC>按一下可变更政府。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>外交</NAME>
+		<DESC>按一下可进行外交。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>外交</NAME>
+		<DESC>按一下可进行外交。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>好"</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>排程</NAME>
+		<DESC>按一下由排程中移除此物体。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>物体</NAME>
+		<DESC>按一下选择这项物体，CTRL-按一下即可移除，SHIFT-按一下仅选择此类型的物体。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>托曳</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>将鼠标指针移至物体上方</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="7" tex_row="6" clip="0">
+		<NAME>退出</NAME>
+		<DESC>按一下来退出此一单位。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>退出空中加油</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>退出空中整备</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>按一下可选择此一物体</NAME>
+		<DESC>按一下可选择此一物体。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>连按两下可选取所有此类型的物体</NAME>
+		<DESC>连按两下可选取所有此类型的物体。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>研究类别</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>显示限制</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>空军基地图标</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>领袖</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>边界</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>目前国家</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>国家</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>目前时代</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>时代</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>群组</NAME>
+		<DESC>按右键产生单位。按左键进行选择。（快速键：CTRL+#产生;#选择;SHIFT+#消除）。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>产生战斗轰炸机</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="11" clip="0">
+		<NAME>必须同化城市</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>中立化</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>敌方领域</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>没有邻近城市</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>取消建筑</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>取消行动</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>取消行动</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="11" clip="0">
+		<NAME>同化中</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>地面</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>研究中</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>奇观</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>遣散中</NAME>
+		<DESC/>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>选择</NAME>
+		<DESC>按一下可进入选择模式，您可以选择及编辑位于地图上的单位和建筑。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>剧情选项</NAME>
+		<DESC>按一下编辑此剧情的规则及游戏设定。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>国家选项</NAME>
+		<DESC>按一下可编辑游戏中的国家，包括名称、国家性、开始资源及人工智能设定等。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>地图产生器</NAME>
+		<DESC>按一下可使用地图产生器产生新的随机地图，或从影像文件汇入地图。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>地形</NAME>
+		<DESC>按一下可编辑地形，包括陆地、海洋、山地及森林等。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>稀有资源</NAME>
+		<DESC>按一下可新增及移除稀有资源。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>单位</NAME>
+		<DESC>按一下可新增及移除单位。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>建筑</NAME>
+		<DESC>按一下可新增及移除建筑。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>外交</NAME>
+		<DESC>按一下可编辑外交状况。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>外交</NAME>
+		<DESC>按一下编辑外交状态。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>编辑指令码</NAME>
+		<DESC>按一下可建立、编辑或侦错此剧情的指令码。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>开始资源</NAME>
+		<DESC>按一下可编辑开始资源</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>开始科技</NAME>
+		<DESC>按一下可编辑开始的非图书馆科技。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>开始图书馆科技</NAME>
+		<DESC>按一下可编辑图书馆科技。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>人工智能设定</NAME>
+		<DESC>按一下可编辑计算机玩家的人工智能设定。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>变更领袖名称</NAME>
+		<DESC>按一下可变更领袖名称。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>忽略人口设限</NAME>
+		<DESC>按一下可忽略人口限制。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>删除</NAME>
+		<DESC>按一下则删除这个国家。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>选项</NAME>
+		<DESC>按一下显示（剧情编辑器）的选项菜单。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>退出</NAME>
+		<DESC>按一下退出剧情编辑器。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>储存</NAME>
+		<DESC>按一下储存剧情。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>加载</NAME>
+		<DESC>按一下加载剧情档案。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>测试剧情</NAME>
+		<DESC>按一下测试剧情。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>完整编辑器</NAME>
+		<DESC>东西</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>继续游戏</NAME>
+		<DESC>东西</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>选择笔刷</NAME>
+		<DESC>东西</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>放置物体</NAME>
+		<DESC>按一下可选择放置物体。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>放置物品</NAME>
+		<DESC>按一下可选择放置这项物品。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>设定状态</NAME>
+		<DESC>按一下可设定外交状态。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="3" tex_row="11" clip="0">
+		<NAME>增加生命点数</NAME>
+		<DESC>按一下可增加选择物体的生命点数。按住SHIFT再按鼠标左键可快速增加，按住 ALT再按鼠标左键可以最快速度增加，按住CTRL再按鼠标左键则是以非常慢的速度 增加。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="11" clip="0">
+		<NAME>减少生命点数</NAME>
+		<DESC>按一下可减少选择物体的生命点数。按住SHIFT再按鼠标左键可快速减少，按住 ALT再按鼠标左键可以最快速度减少，按住CTRL再按鼠标左键则是以非常慢的速度 减少。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="8" clip="0">
+		<NAME>增加特殊功能</NAME>
+		<DESC>按一下可增加选择物体的特殊功能。按住SHIFT再按鼠标左键可快速增加，按住 ALT再按鼠标左键可以最快速度增加，按住CTRL再按鼠标左键则是以非常慢的速度  增加。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="9" clip="0">
+		<NAME>减少特殊功能</NAME>
+		<DESC>按一下可减少选择物体的特殊功能。按住SHIFT再按鼠标左键可快速减少，按住 ALT再按鼠标左键可以最快速度减少，按住CTRL再按鼠标左键则是以非常慢的速度 减少。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="10" clip="0">
+		<NAME>启用建筑</NAME>
+		<DESC>按一下启用建筑并使其成为建构完整的建筑。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="11" clip="0">
+		<NAME>停用建筑</NAME>
+		<DESC>按一下停用建筑并使其成为全新的地基。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>删除</NAME>
+		<DESC>这有什么用处?</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>产生地图</NAME>
+		<DESC>按一下可产生新地图。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>汇入地图影像</NAME>
+		<DESC>按一下从影像汇入地图。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>变更地图识别值种子</NAME>
+		<DESC>按一下变更地图的识别值种子。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>切换战雾</NAME>
+		<DESC>按一下切换战雾显示。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="2" tex_row="11" clip="0">
+		<NAME>建立首都</NAME>
+		<DESC>按一下将此城市作为国家首都。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>持续运输</NAME>
+		<DESC>东西</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>从不运输</NAME>
+		<DESC>东西</DESC>
+	</OPTION>
+	<OPTION tex_col="1" tex_row="1" clip="0">
+		<NAME>选择国家</NAME>
+		<DESC>按一下选择此一国家。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>随机选取国家</NAME>
+		<DESC>按一下会显示其它国家。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>新增国家</NAME>
+		<DESC>按一下可增加新的国家。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>地形</NAME>
+		<DESC>按一下可修改地形。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>沃土</NAME>
+		<DESC>按一下可放置沃土地形</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>沃土1</NAME>
+		<DESC>按一下可放置沃土转变1。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>沃土2</NAME>
+		<DESC>按一下可放置沃土转变2。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>瘠地</NAME>
+		<DESC>按一下可放置瘠地地形。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>海洋</NAME>
+		<DESC>按一下可放置海洋</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>森林</NAME>
+		<DESC>选取这个按钮并在地图上按一下来放置森林</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>山地</NAME>
+		<DESC>按一下可放置山地</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>峭壁</NAME>
+		<DESC>按一下可放置峭壁</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>岩地</NAME>
+		<DESC>选取这个按钮并在地图上按一下来放置岩地或油脉。按一下岩地或一小块油脉， 就可以在岩地和油脉之间进行切换。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>油脉</NAME>
+		<DESC>按一下可放置油脉（必需在岩地上）</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>河流</NAME>
+		<DESC>按一下可放置河流</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>新增特色</NAME>
+		<DESC>按一下可增加个别灌木丛或岩石</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>1x1笔刷</NAME>
+		<DESC>按一下选择1x1笔刷</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>3x3笔刷</NAME>
+		<DESC>按一下选择3x3笔刷</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>5x5笔刷</NAME>
+		<DESC>按一下选择5x5笔刷</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>1x5笔刷</NAME>
+		<DESC>按一下选择1x5笔刷</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>5x1笔刷</NAME>
+		<DESC>按一下选择5x1笔刷</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>5x5X笔刷</NAME>
+		<DESC>按一下选择5地块X笔刷</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>移除地形</NAME>
+		<DESC>按一下可移除地形特色（山地或森林或岩地）</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>移除稀有资源</NAME>
+		<DESC>按一下可移除一项稀有资源</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>移除所有稀有资源</NAME>
+		<DESC>按一下可删除所有稀有资源</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>增加资源</NAME>
+		<DESC>按一下可增加这项资源$NUMBER0单位。按住CTRL再按鼠标左键可得100单位，按住 SHIFT再按鼠标左键可得500单位，按住ALT再按鼠标左键可得10000单位，同时按 住CTRL及SHIFT再按鼠标左键可得1单位。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>减少资源</NAME>
+		<DESC>按一下可减少这项资源$NUMBER0单位。按住CTRL再按鼠标左键减少100单位，按住 SHIFT再按鼠标左键减少500单位，按住ALT再按鼠标左键减少10000单位，同时按 住CTRL及SHIFT再按鼠标左键减少1单位。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>增加资源</NAME>
+		<DESC>按一下可增加这项资源100单位</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>减少资源</NAME>
+		<DESC>按一下可减少这项资源100单位</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>预设资源</NAME>
+		<DESC>按一下将资源设为默认值</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>增加每项资源</NAME>
+		<DESC>按一下可增加每项资源$NUMBER0单位。按住CTRL再按鼠标左键可得100单位，按住 SHIFT再按鼠标左键可得500单位，按住ALT再按鼠标左键可得10000单位，同时按 住CTRL及SHIFT再按鼠标左键可得1单位。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>增加每项资源</NAME>
+		<DESC>按一下可增加每项资源100单位</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>减少每项资源</NAME>
+		<DESC>按一下可减少每项资源$NUMBER0单位。按住CTRL再按鼠标左键减少100单位，按住 SHIFT再按鼠标左键减少500单位，按住ALT再按鼠标左键减少10000单位，同时按 住CTRL及SHIFT再按鼠标左键减少1单位。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>减少每项资源</NAME>
+		<DESC>按一下可减少每项资源100单位</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>变更剧情名称</NAME>
+		<DESC>按一下可变更剧情名称</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>使用剧情指令码</NAME>
+		<DESC>按一下可于使用此地图进行游戏时，切换加载剧情指令码</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>设定镜头位置</NAME>
+		<DESC>按一下可设定剧情的初始镜头位置。剧情开始时，目前的镜头位置与缩放程度会 成为玩家的初始视野。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>取得镜头位置</NAME>
+		<DESC>按一下可跳至剧情的初始镜头视野。剧情开始进行时，会显示玩家所见的视野。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="6" clip="0">
+		<NAME>重新命名</NAME>
+		<DESC>按一下可重新命名此城市。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>重新初始化地形</NAME>
+		<DESC>按一下可重新初始化地形</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>填满地面类型</NAME>
+		<DESC>按一下可使用地形类型，随机填满地面区域</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>清除地面类型</NAME>
+		<DESC>按一下可从地面区域清除地面类型</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>新增随机地形</NAME>
+		<DESC>按一下可随机放置森林、山地、岩地或油脉</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>清除所有地形</NAME>
+		<DESC>按一下可移除所有森林、山地、岩地或油脉</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>新增随机特色</NAME>
+		<DESC>按一下可增加随机灌木丛或岩石</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>移除一个特色</NAME>
+		<DESC>按一下可清除一个灌木丛或岩石</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>清除所有特色</NAME>
+		<DESC>按一下可清除所有灌木丛或岩石</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>切换研究模式</NAME>
+		<DESC>按一下可切换研究模式</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>编辑地形</NAME>
+		<DESC>按一下编辑抽象地图上的陆地/海洋/山地/河流</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>调整高度</NAME>
+		<DESC>选取这个按钮并往左拖曳来提升地形高度。选取这个按钮并往右拖曳来降低地形 高度。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>增加高度</NAME>
+		<DESC>按一下增加陆地高度</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>减少高度</NAME>
+		<DESC>按一下减少陆地高度</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>套用变更</NAME>
+		<DESC>按一下套用您在这个地图上所作的变更</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>取消</NAME>
+		<DESC>按一下可取消变更</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>移除特色</NAME>
+		<DESC>按一下可移除最后放置的山地</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>1x1笔刷</NAME>
+		<DESC>按一下选择1x1笔刷</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>3x3笔刷</NAME>
+		<DESC>按一下选择3x3笔刷</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>5x5笔刷</NAME>
+		<DESC>按一下选择5x5笔刷</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>1x5笔刷</NAME>
+		<DESC>按一下选择1x5笔刷</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>5x1笔刷</NAME>
+		<DESC>按一下选择5x1笔刷</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>5x5X笔刷</NAME>
+		<DESC>按一下选择5地块X笔刷</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME/>
+		<DESC>按一下设定较大峭壁尺寸</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME/>
+		<DESC>按一下设定较小峭壁尺寸</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>lt"</NAME>
+		<DESC>按一下到上个峭壁类型</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>gt"</NAME>
+		<DESC>按一下到下个峭壁类型</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>新增节点</NAME>
+		<DESC>新增河流节点</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>清除全部</NAME>
+		<DESC>从地图上移除所有目前的河流节点</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>清除上个</NAME>
+		<DESC>移除最近一个增加的河流节点</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>新增河流</NAME>
+		<DESC>在地图上增加河流</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>停用生产人工智能</NAME>
+		<DESC>按一下切换生产人工智能。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>停用单位人工智能</NAME>
+		<DESC>按一下切换所有单位的人工智能。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>停用战斗人工智能</NAME>
+		<DESC>按一下切换战斗人工智能。军事单位会依其态势反应攻击。</DESC>
+	</OPTION>
+	<OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="9" clip="0">
+		<NAME>停用人工智能</NAME>
+		<DESC>按一下切换此单位的人工智能。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>切换资源接口</NAME>
+		<DESC>按一下切换资源接口。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>切换市场接口</NAME>
+		<DESC>按一下切换市场接口。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>切换基础建设接口</NAME>
+		<DESC>按一下切换基础建设接口。</DESC>
+	</OPTION>
+	<OPTION tex_col="-1" tex_row="-1" clip="0">
+		<NAME>切换主接口</NAME>
+		<DESC>按一下切换主接口。</DESC>
+	</OPTION>
+</OPTIONS>
